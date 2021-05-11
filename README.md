@@ -2,6 +2,7 @@
 
 * Presentación: https://asalva.github.io/memoria-dll3/export
 * PDF: https://asalva.github.io/memoria-dll3/export/?print-pdf
+* Resumen: https://asalva.github.io/memoria-dll3/export-memoria-dll3-resumen
 
 Created with reveal.js and vscode-reveal: https://github.com/evilz/vscode-reveal
 
