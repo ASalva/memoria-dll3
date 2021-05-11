@@ -1,0 +1,1860 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Didáctica de la Lengua y la Literatura – Módulo III – MEMORIA DE CONTENIDOS - Anahí M. Salva</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- REVEAL CSS-->
+  <link rel="stylesheet" href="libs/reveal.js/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/reveal.css">
+  
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/league.css" id="theme">
+  
+  
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/plugin/title-footer/title-footer-mod.css" />
+
+  <!-- MERMAID-->
+  <script src="libs/reveal.js/3.8.0/plugin/mermaid/mermaid.min.js"></script>
+  <style>
+  .mermaid {
+    font-size: 0.5em;
+  }
+  </style>
+
+  <style>
+    [class*=task-list-item] {
+    min-height: 22px;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+    padding-left: 0;
+    list-style: none;
+}
+
+[class*=task-list-item]>input:first-child {
+    position: absolute!important;
+    opacity: 0;
+    margin: 0;
+}
+[class*=task-list-item]>label {
+    padding-left: 29px!important;
+    min-height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task-list-item>input:first-child:checked+input[type=hidden]+label::before, .task-list-item>input:first-child:checked+label::before {
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+}
+
+[class*=task-list-item]>input:first-child+input[type=hidden]+label::before, [class*=task-list-item]>input:first-child+label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D3CFC8;
+    border-radius: 0;
+    margin-left: -29px;
+}
+
+
+[class*=task-list-item]>input:first-child:checked+input[type=hidden]+label::after, [class*=task-list-item]>input:first-child:checked+label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    transform: translate(7.75px,4.5px) rotate(45deg);
+    -ms-transform: translate(7.75px,4.5px) rotate(45deg);
+}
+
+
+.task-list-item>input:first-child:checked+input[type=hidden]+label::after, .task-list-item>input:first-child:checked+label::after {
+    border-bottom-color: #95a5a6;
+    border-right-color: #95a5a6;
+}
+  </style>
+
+  <!-- Theme used for syntax highlighting of code -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/9.12.0/monokai.css">
+  
+
+  
+  <link rel="stylesheet" href="slideshow-theme-override.css">
+  
+  
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'libs/reveal.js/3.8.0/css/print/pdf.css' : 'libs/reveal.js/3.8.0/css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <style>
+    /* Solarized Light theme */
+     .line {
+      display: block;
+    }
+    
+
+    .line.focus {
+      background: #fdf6e3;
+      color: #657b83;
+    }
+
+/*
+    .line.focus .hljs-comment,
+    .line.focus .hljs-quote {
+      color: #93a1a1;
+    }
+
+    .line.focus .hljs-keyword,
+    .line.focus .hljs-selector-tag,
+    .line.focus .hljs-addition {
+      color: #859900;
+    }
+
+    .line.focus .hljs-number,
+    .line.focus .hljs-string,
+    .line.focus .hljs-meta .hljs-meta-string,
+    .line.focus .hljs-literal,
+    .line.focus .hljs-doctag,
+    .line.focus .hljs-regexp {
+      color: #2aa198;
+    }
+
+    .line.focus .hljs-title,
+    .line.focus .hljs-section,
+    .line.focus .hljs-name,
+    .line.focus .hljs-selector-id,
+    .line.focus .hljs-selector-class {
+      color: #268bd2;
+    }
+
+    .line.focus .hljs-attribute,
+    .line.focus .hljs-attr,
+    .line.focus .hljs-variable,
+    .line.focus .hljs-template-variable,
+    .line.focus .hljs-class .hljs-title,
+    .line.focus .hljs-type {
+      color: #b58900;
+    }
+
+    .line.focus .hljs-symbol,
+    .line.focus .hljs-bullet,
+    .line.focus .hljs-subst,
+    .line.focus .hljs-meta,
+    .line.focus .hljs-meta .hljs-keyword,
+    .line.focus .hljs-selector-attr,
+    .line.focus .hljs-selector-pseudo,
+    .line.focus .hljs-link {
+      color: #cb4b16;
+    }
+
+    .line.focus .hljs-built_in,
+    .line.focus .hljs-deletion {
+      color: #dc322f;
+    }
+
+    .line.focus .hljs-formula {
+      background: #eee8d5;
+    }
+
+    .line.focus .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .line.focus .hljs-strong {
+      font-weight: bold;
+    }
+
+    .yellow-slide .line.focus:nth-child(2) {
+      background: yellow;
+    }
+
+    .reveal .slides section .code-presenting-annotation {
+      font-size: 70%;
+    }
+    */
+
+    .reveal .slides section .fragment.current-only {
+      visibility: visible;
+      display: none;
+    }
+
+    .reveal .slides section .fragment.current-only.current-fragment {
+      display: block;
+    }
+
+/*
+    .line {
+      display: block;
+    }
+*/
+    .line.focus {
+       opacity: 1.0;
+    } 
+
+    /* .hljs {
+      background: none;
+    } */
+
+    /* .reveal pre {
+      width: 98%;
+      margin: 0px;
+      box-shadow: none;
+    }
+
+    .reveal pre code {
+      font-size: 1.2em;
+      line-height: 1.2;
+      border-radius: 10px;
+      max-height: 60vh !important;
+      overflow: hidden !important;
+    } */
+
+    @media (device-width: 100vw) and (device-height: 100vh) {
+      .reveal pre code {
+        max-height: 50vh !important;
+      }
+    }
+
+    #logo img {
+      max-height: 3.5em;
+      max-width: none;
+      min-width: 50px;
+    }
+
+    .reveal .slides section .code-presenting-annotation {
+      color: white;
+      background: black;
+      padding: 0px 15px;
+      border-radius: 15px;
+      opacity: 0.75 !important;
+      font-size: 50% !important;
+    }
+  </style>
+  <script>
+    if (window.location.search.match(/print-pdf-now/gi)) {
+      window.print();
+    }
+  </script>
+</head>
+
+<body>
+  
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2><a id="user-content-didáctica-de-la-lengua-y-la-literatura--módulo-iii" class="anchor" href="#didáctica-de-la-lengua-y-la-literatura--módulo-iii" aria-hidden="true"></a>Didáctica de la Lengua y la Literatura – Módulo III</h2>
+<h3><a id="user-content-memoria-de-contenidos" class="anchor" href="#memoria-de-contenidos" aria-hidden="true"></a>MEMORIA DE CONTENIDOS</h3>
+<br>
+<br>
+Universidad Nacional de Salta Facultad de Humanidades
+<br>
+<br>
+<p><strong>Anahí M. Salva</strong></p>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a id="user-content-eje-en-relación-con-la-lectura-y-la-producción-escrita" class="anchor" href="#eje-en-relación-con-la-lectura-y-la-producción-escrita" aria-hidden="true"></a>EJE: EN RELACIÓN CON LA LECTURA Y LA PRODUCCIÓN ESCRITA</h2>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular" class="anchor" href="#contenido-del-diseño-curricular" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<p>Contenidos comunes: 1°, 2°, 3°, 4° y 5° año.</p>
+<h4><a id="user-content-lectura" class="anchor" href="#lectura" aria-hidden="true"></a>LECTURA</h4>
+<p>Lectura de textos narrativos ficcionales:</p>
+<ul>
+<li>trama, personajes, tiempo, espacio, orden cronológico, relaciones causales.</li>
+<li>Discurso directo e indirecto.</li>
+<li>Función de la descripción en la narración.</li>
+<li>Secuencias narrativas.</li>
+<li>Funciones de los personajes.</li>
+<li>Historia y discurso.</li>
+<li>Reconocimiento de la superestructura y
+macroestructura de los textos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía" class="anchor" href="#materia-cursada-y-bibliografía" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura" class="anchor" href="#introducción-a-la-literatura" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Dorra, Raúl (2000) “La actividad narrativa de la descripción” en Hablar de literatura. México: FCE.</li>
+<li>Filinich, María Isabel (1996) “La escritura y la voz en la narración literaria” en Signa. Revista de la Asociación de Semiótica Española n° 5. México: UAP.</li>
+<li>Guzmán, Raquel y Rodríguez S. (Coords.) (2014) Manual de estudios literarios. Material de cátedra.</li>
+<li>Papaccini, A. (1987) “Bocaccio: el otoño de la concepción medieval del mundo” en Cuadernos de filosofía latinoamericana, N° 32- 33, Universidad santo Tomás: Bogotá</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-teoria-literaria-i" class="anchor" href="#teoria-literaria-i" aria-hidden="true"></a>TEORIA LITERARIA I</h4>
+<ul>
+<li>Dorra, Raúl (1990) “Los relatos literarios entre la proliferación y la clasificación (ensayo de un esquema ternario) Acta poética 11, pp 35-77</li>
+<li>Filinich, María Isabel (1999) “Introducción”, “La enunciación narrativa”, “Modos de enunciación de la historia” y “La situación narrativa: percepción y voz” en La voz y la mirada. México: Plaza Valdéz- BUAP.</li>
+<li>Reyes, Graciela (1984) Polifonía textual. La citación en el relato literario. Madrid: Gredos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-infantil-y-juvenil" class="anchor" href="#literatura-infantil-y-juvenil" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<ul>
+<li>Lluch Crespo, G. “La literatura de adolescentes: la psicoliteralura” en Textos de la didáctica de la lengua y la literatura; Barcelona: Grao, julio de 1996.</li>
+<li>Lluch Crespo, G. “Mecanismos de adicción en la literatura juvenil comercial” en Biblioteca Virtual Universal <a href="http://www.cervantesvirtual.com/obra/mecanismos-de-adiccion-en-la-literatura-juvenil-comercial--0/">http://www.cervantesvirtual.com/obra/mecanismos-de-adiccion-en-la-literatura-juvenil-comercial--0/</a> (consulta realizada el 01/05/2021)</li>
+<li>Montes, G. (1990) El corral de la infancia; Bs. As. Libros del Quirquincho</li>
+<li>Montes, G. (1999) La frontera indómita; Méjico: F.C.E.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Petit, M. (1999) Nuevos acercamientos a los jóvenes y la lectura; Méjico: F.C.E.</li>
+<li>Petit, M. (2001) Lecturas: del espacio íntimo al espacio público; Méjico: F.C.E.</li>
+<li>Petit, M. (2008), El arte de la lectura en tiempos de crisis, Madrid: Océano Travesía</li>
+<li>Robledo, Beatriz (2010), E! arte de la mediación. Espacios y estrategias para En promoción de la lectura, Bogotá: Norma - Colección Catalejo</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido" aria-hidden="true"></a>Enlaces y títulos de materiales curriculares en los que se trabaja el contenido</h4>
+<ul>
+<li>Material curricular diseño por estudiantes universitarios: <a href="https://sites.google.com/hum.unsa.edu.ar/didcticadelalenguaylaliteratur/p%C3%A1gina-principal/materiales-curriculares">https://sites.google.com/hum.unsa.edu.ar/didcticadelalenguaylaliteratur/página-principal/materiales-curriculares</a></li>
+<li>Cuadernos 1°, 2°, 3°, 4° y 5° con Educación secundaria de 6 años: <a href="https://www.educ.ar/recursos/151358/seguimos-educando-cuadernos">https://www.educ.ar/recursos/151358/seguimos-educando-cuadernos</a></li>
+<li>ProyectoGutenberg. Biblioteca virtual que ofrece numerosas obras literarias en español y en otros idiomas libres de derechos.</li>
+<li>Banco de textos. Proyecto colaborativo que recopila cientos de textos subidos por docentes y alumnos para su lectura en clase. Están organizados en distintas categorías: narrativos, descriptivos, argumentativos, expositivos, poéticos y divulgativos. La página también incluye audiolecturas y actividades.</li>
+<li>RevistaBabar. Revista online de literatura infantil y juvenil donde puedes encontrar recomendaciones de lecturas para tus alumnos y artículos con ideas para fomentar la lectura en el aula</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios" class="anchor" href="#observaciones-comentarios" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>Los materiales bibliográficos presentados nos sirven para abordar la teoría, el análisis y la selección de los textos. Pero me parece importante que el docente debe tener práctica de lectura para poder compartir la lectura oral de los texto para el acompañamiento y comprensión también.</li>
+<li>Con respecto a los Cuadernos de Educación, cabe aclarar que es un material más como guía, puesto que las actividades propuestas en los cuadernillos, no me parecen las más adecuadas ya que, a partir de esta técnica aplicacionista, los alumnos no son capaces de construir por sí mismos el conocimiento, ni tampoco este puede amoldarse a la situación o experiencia de cada uno de ellos sino que, por el contrario, el conocimiento se da como algo acabado, que no puede ser modificado. No obstante tiene también materiales útiles para trabajar.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-texto-expositivo" class="anchor" href="#texto-expositivo" aria-hidden="true"></a>TEXTO EXPOSITIVO</h3>
+<ul>
+<li>Organización y procedimientos explicativos, definición, ejemplificación comparación, reformulación.</li>
+<li>Identificación de palabras claves e ideas principales.</li>
+<li>Progresión temática.</li>
+<li>Reconocimiento de la superestructura y macroestructura de los textos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-1" class="anchor" href="#materia-cursada-y-bibliografía-1" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-compresión-y-producción-de-texto" class="anchor" href="#compresión-y-producción-de-texto" aria-hidden="true"></a>COMPRESIÓN Y PRODUCCIÓN DE TEXTO</h4>
+<ul>
+<li>Ares Ares, María Álida (2004) “Capítulo III: Aportaciones más rel evantes para el análisis del discurso escrito” en Análisis de los textos escritos aportados en los manuales ELE. Universidad de Barcelona.</li>
+<li>Padilla de Zerdán, Constanza (2005) “Exposición y argumentación en el artículo</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-psicolinguística" class="anchor" href="#psicolinguística" aria-hidden="true"></a>PSICOLINGUÍSTICA</h4>
+<ul>
+<li>Bronckart, J.-P. (1996), Activité langagiére, textes et discours. Pour un interactionisme socio-discursif. Néuchatel/Paris: Delachaux et Niestlé</li>
+<li>Desinano, N. (2008) “Interacciones y teoría interacción! sta” en Interacciones orales sobre textos expositivo-explicativos disciplinares en la escuela media. Rosario: Laborde. (2005) “Fenómenos de estructuración en el texto oral” en Revista de la Escuela de Letras. Universidad Nacional de Rosario.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-lingüística-del-texto" class="anchor" href="#lingüística-del-texto" aria-hidden="true"></a>LINGÜÍSTICA DEL TEXTO</h4>
+<ul>
+<li>Van Dijk, Teun (1983)La ciencia del texto. Barcelona: Paidós.</li>
+<li>Van Dijk, Teun (1997) Estructura y funciones del discurso. México: Siglo XXI.</li>
+<li>Van Dijk, Teun (1982) Texto y contexto. Madrid: Cátedra.</li>
+<li>Ciapuscio, Guiomar (1994) Tipos textuales. Buenos Aires: Instituto de Filología, Universidad de Buenos Aires.</li>
+<li>Louredas, Lamas (2003) Introducción a la tipología textual. Madrid: Arco Libros.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-texto-argumentativo" class="anchor" href="#texto-argumentativo" aria-hidden="true"></a>TEXTO ARGUMENTATIVO</h3>
+<ul>
+<li>Posición personal</li>
+<li>Cita de autoridad</li>
+<li>Comparación</li>
+<li>Preguntas retóricas</li>
+<li>Palabras y expresiones que manifiestan valoraciones</li>
+<li>Intención</li>
+<li>Dimensión de la valoración retórica del texto.</li>
+<li>Reconocimiento de sus partes y organización interna.</li>
+<li>Reconocimiento de la superestructura y macroestructura de los textos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-2" class="anchor" href="#materia-cursada-y-bibliografía-2" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-compresión-y-producción-de-texto-1" class="anchor" href="#compresión-y-producción-de-texto-1" aria-hidden="true"></a>COMPRESIÓN Y PRODUCCIÓN DE TEXTO</h4>
+<ul>
+<li>
+<p>Ares Ares, María Álida (2004) “Capítulo III: Aportaciones más rel evantes para el análisis del discurso escrito” en Análisis de los textos escritos</p>
+</li>
+<li>
+<p>Álvarez Chamale, Fernanda María (2010) “Aproximaciones a la enunciación: teoría y marcas lingüístico-textuales. Inédito.</p>
+</li>
+<li>
+<p>Alvarado, Maite y Alicia Yeannoteguy (2000) “4. La argumentación” en La escritura y sus formas discursivas. Curso introductorio. Buenos Aires: Eudeba.</p>
+</li>
+<li>
+<p>Padilla de Zerdán, Constanza (2005) “Exposición y argumentación en el artículo científico” en La escritura académica. Alfabetización y discurso científico. INSIL, UNT, pp 57-78.</p>
+</li>
+</ul>
+<h4><a id="user-content-psicolinguística-1" class="anchor" href="#psicolinguística-1" aria-hidden="true"></a>PSICOLINGUÍSTICA</h4>
+<p>Schneuwly B. (1988), Le lenguage écrit chez l’enfant. Laproduction des textes informatifs et argumentatifs. París, Neuchátel: Delachaux &amp; Niestlé.</p>
+<h4><a id="user-content-lingüística-del-texto-1" class="anchor" href="#lingüística-del-texto-1" aria-hidden="true"></a>LINGÜÍSTICA DEL TEXTO</h4>
+<ul>
+<li>Van Dijk, Teun (1983)La ciencia del texto.Barcelona: Paidós.</li>
+<li>Van Dijk, Teun(1997) Estructura y funciones del discurso.México: Siglo XXI.</li>
+<li>Van Dijk, Teun (1982) Texto y contexto. Madrid: Cátedra.</li>
+<li>Ciapuscio, Guiomar (1994) Tipos textuales. Buenos Aires: Instituto de Filología, Universidad de Buenos Aires.</li>
+<li>Louredas, Lamas (2003) Introducción a la tipología textual. Madrid: Arco Libros</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-estrategias-de-lectura" class="anchor" href="#estrategias-de-lectura" aria-hidden="true"></a>ESTRATEGIAS DE LECTURA</h3>
+<ul>
+<li>Consideración del paratexto, determinación de la intencionalidad, anticipaciones, información relevante, inferencias, contexto de producción.</li>
+<li>Campo semántico, familia de palabras, etimología y uso de diccionarios.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-3" class="anchor" href="#materia-cursada-y-bibliografía-3" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-psicolinguística-2" class="anchor" href="#psicolinguística-2" aria-hidden="true"></a>PSICOLINGUÍSTICA</h4>
+<ul>
+<li>de Vega M, J.M Díaz e I. León (1999) “Procesamiento del discurso” en Psicolingüística del español. Madrid: Trotta.</li>
+<li>Jamet, E. (2006) Lectura y éxito escolar. Buenos Aires: FCE.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-1" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-1" aria-hidden="true"></a>Enlaces y títulos de materiales curriculares en los que se trabaja el contenido</h4>
+<ul>
+<li>Diccionario Etimológico de Rafael Lapesa
+<a href="https://filologiaunlp.files.wordpress.com/2012/04/rafael-lapesa-historia-de-la-lengua-espanola.pdf">https://filologiaunlp.files.wordpress.com/2012/04/rafael-lapesa-historia-de-la-lengua-espanola.pdf</a></li>
+<li>Aquí encontrarás todos los juegos sobre lengua española de la A a la Z. Desde tests de ortografía, léxico o gramática a ejercicios con adjetivos, gentilicios o refranes. <a href="https://www.cerebriti.com/juegos-de-lengua/las-funciones-del-lenguaje-segun-roman-jakobson">https://www.cerebriti.com/juegos-de-lengua/las-funciones-del-lenguaje-segun-roman-jakobson</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-escritura" class="anchor" href="#escritura" aria-hidden="true"></a>ESCRITURA</h3>
+<ul>
+<li>Diseño de situaciones comunicativas para escribir textos ficcionales/ no ficcionales:</li>
+<li>textos narrativos</li>
+<li>Textos expositivos</li>
+<li>Textos argumentativos</li>
+<li>Resúmenes y mapas</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-4" class="anchor" href="#materia-cursada-y-bibliografía-4" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-compresión-y-producción-de-texto-2" class="anchor" href="#compresión-y-producción-de-texto-2" aria-hidden="true"></a>COMPRESIÓN Y PRODUCCIÓN DE TEXTO</h4>
+<ul>
+<li>Ares Ares, María Álida (2004) “Capítulo III: Aportaciones más relevantes para el análisis del discurso escrito” en Análisis de los textos escritos aportados en los manuales ELE. Universidad de Barcelona.</li>
+<li>Ferreiro, Emilia (2000), “Leer y escribir en un mundo cambiante”, Conferencia expuesta en las Sesiones Plenarias del 26 Congreso de la Unión Internacional de Editores. CINVESTAV-México. <a href="http://www.cerlalc.org/Escuela/enlaces/leer">http://www.cerlalc.org/Escuela/enlaces/leer</a> escribir mundo cambiante ferreiro.pd</li>
+<li>Olson, David (1998) “La cultura escrita como actividad metalingüística” en en Olson, David y Torrance (Comps.) Cultura escrita y oralidad. Barcelona: Gedisa.</li>
+<li>Pattanayak, Dedi Prasanna (1998) “La cultura escrita: un instrumento de opresión”, en Olson, David y Nancy Torrance (Comps.) Cultura escrita y oralidad. Barcelona: Gedisa.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-psicolinguística-3" class="anchor" href="#psicolinguística-3" aria-hidden="true"></a>PSICOLINGUÍSTICA</h4>
+<ul>
+<li>Flower, L. y J.Hayes (1994) “La teoría de la redacción como proceso cognitivo” en Textos en contextos. Los procesos de lectura y escritura. Buenos Aires: Lectura y vida.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-2" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-2" aria-hidden="true"></a>Enlaces y títulos de materiales curriculares en los que se trabaja el contenido</h4>
+<ul>
+<li>Escritura específico para el 5 año: “Curriculums Literarios para el aula de Lengua y Literatura”: Una de las más interesantes rescataba una herramienta digital para diseñar y difundir currículums vitae en la red, conocida por Do you buzz. Permite, entre otras posibilidades, establecer un objetivo claro para la escritura de textos digitales breves y discontinuos, en combinación con otros códigos audiovisuales. <a href="http://www.agujademarear.com/2017/01/curriculums-literarios-con-do-you-buzz.html">http://www.agujademarear.com/2017/01/curriculums-literarios-con-do-you-buzz.html</a></li>
+<li>Proyecto: “Del comentario de textos al artículo de opinión”. Disponible en:  <a href="https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/Del+comentario+de+textos+al+art%C3%ADculo+de+opin%C3%B3n..pdf/b3263c5c-2c89-4c6b-9826-27df8d4af460">https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/Del+comentario+de+textos+al+artículo+de+opinón..pdf/b3263c5c-2c89-4c6b-9826-27df8d4af460</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Proyecto: “El poder de las palabras”. Disponible en: <a href="https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/El+poder+de+las+palabras.+La+gram%C3%A1tica+de+uso+al+servicio+de+la+comunicaci%C3%B3n..pdf/0bfa524d-1f2c-433b-8e66-4153068fa91c">https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/El+poder+de+las+palabras.+La+gramática+de+uso+al+servicio+de+la+comunicación..pdf/0bfa524d-1f2c-433b-8e66-4153068fa91c</a></li>
+<li>“Ojos que no ven” <a href="https://anabast.wordpress.com/2015/02/22/proyectos-de-geografia-e-historia-para-trabajar-en-3o-y-4o-de-la-eso/">https://anabast.wordpress.com/2015/02/22/proyectos-de-geografia-e-historia-para-trabajar-en-3o-y-4o-de-la-eso/</a></li>
+<li>“Ojos que no ven” da un paso más y plantea a los equipos de aula que se conviertan en escritores, compositores musicales o coreógrafos que creen obras artísticas acerca de cada uno de los temas tratados: Poemas sobre la emigración. Canciones protesta contra la discriminación de la mujer. Mimos o coreografías para defender la igualdad”.</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a id="user-content-eje-en-relación-con-la-literatura" class="anchor" href="#eje-en-relación-con-la-literatura" aria-hidden="true"></a>EJE: EN RELACIÓN CON LA LITERATURA</h2>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-1" class="anchor" href="#contenido-del-diseño-curricular-1" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-el-discurso-literario-y-géneros-literarios" class="anchor" href="#el-discurso-literario-y-géneros-literarios" aria-hidden="true"></a>El discurso literario y géneros Literarios</h4>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-5" class="anchor" href="#materia-cursada-y-bibliografía-5" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-1" class="anchor" href="#introducción-a-la-literatura-1" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Guzmán, Raquel y Rodríguez S. (Coords.) (2014) Manual de estudios literarios. Material de cátedra.</li>
+<li>Aguiar e Silva, V. M (1979) “El concepto de literatura. Teoría de la literatura” y “La periodización literaria” en Teoría de la literatura. Madrid: Gredos.</li>
+<li>Baumgart, Claudia (1986) “Los géneros literarios” en Enciclopedia Hyspamérica de la lengua y la literatura. Buenos Aires: Hyspamérica.</li>
+<li>Eagleton, Terry (2008) “¿Qué es la literatura?” en Una introducción a la teoría literaria. México: FCE.</li>
+<li>Todorov, Tzvetan (1996) “La noción de la literatura” en Los géneros del discurso. Caracas: Monte Ávila Editores.</li>
+<li>Todorov, Tzvetan (1988) “El origen de los géneros” en Teoría de los géneros literarios. Madrid: Arco Libros.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-teoría-literaria-i" class="anchor" href="#teoría-literaria-i" aria-hidden="true"></a>TEORÍA LITERARIA I</h4>
+<ul>
+<li>Barei, Silvia (1998) Teoría de la crítica. Córdoba: Alción.</li>
+<li>Cándido, Antonio (1995) “El derecho a la literatura” en Ensayos y comentarios. México: FCE.</li>
+<li>Klein, Irene (2006) “Función cognoscitiva de la experiencia literaria” en Revista Zigurat. UBA, año 7/ N°6.</li>
+<li>Cortázar, Julio (2013) Clases de literatura.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-infantil-y-juvenil-1" class="anchor" href="#literatura-infantil-y-juvenil-1" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<ul>
+<li>Andruetto, M.T. (2009) Hacia una literatura sin adjetivos; Córdoba: Comunicarte</li>
+<li>Entrevista a Liliana Bodoc “La literatura infantil no es un género menor” disponible en httDs://www.mdzol.com/entrevista/6Q356-la-líteratüraHnt¿ititil[ noes-un-genero-menor/ (consulta realizada el 30 de marzo de 2018)</li>
+<li>Genette, G. (1989) Paümpsestos en la literatura en segundo grado, MadridvTaurus</li>
+<li>Lluch Crespo, G. “La literatura de adolescentes: la psicoliteratura” en Textos de la didáctica de la lengua y la literatura^; Barcelona: Grao, julio de 1996.</li>
+<li>Lluch Crespo, G. “Mecanismos de adicción en la literatura juvenil comercial” en Biblioteca Virtual Universal <a href="http://www.cervantesvirtual.com/obravisor/mecanismos-de-adiccion-en-la-i%C3%ADteratura-iuvenii-comerciai--Q/html/b4c88206-b4fa-4182-bQ9d-f9394ceQfaaf">http://www.cervantesvirtual.com/obravisor/mecanismos-de-adiccion-en-la-iíteratura-iuvenii-comerciai--Q/html/b4c88206-b4fa-4182-bQ9d-f9394ceQfaaf</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-argentina" class="anchor" href="#literatura-argentina" aria-hidden="true"></a>LITERATURA ARGENTINA</h4>
+<ul>
+<li>Juárez, Roxana Elizabet, “Fronteras, formas del (desarraigo y memoria en Viene clareando, de Gloria Lisé”, en Raquel Guzmán (Comp.), Cartografías literarias. De la democracia al bicentenario en el noroeste argentino, Buenos Aires, Teseo, 2018, pp. 187-204.</li>
+<li>Palermo, Zulma, &quot;De la colonización del género: tugar social del decir, en itinerarios. Revista de estudios lingüísticos, literarios, históricos y antropológicos, n° 10, Varsovia, Instituto de Estudios Ibéricos e Iberoamericanos, Universidad de Varsovia, 2009, pp. 193-204.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-extranjera" class="anchor" href="#literatura-extranjera" aria-hidden="true"></a>LITERATURA EXTRANJERA</h4>
+<ul>
+<li>BLOOM, Harold. “Elegía al canon” en El canon occidental. Barcelona: Anagrama, 2005.</li>
+<li>CASANOVA, Paséale. La República mundial de las letras. Barcelona: Anagrama, 2001.</li>
+<li>EAGLETON, Terry. “Valor” en Cómo leer literatura. Buenos Aires: Ariel, 2016</li>
+<li>MORETTI, Franco. “Conjeturas sobre la literatura mundial” en Lectura distante. Buenos Aires: Fondo de Cultura Económica, 2015.</li>
+<li>TODOROV, Tzvetan. “¿Qué puede hacer la literatura?” en La literatura en peligro. Barcelona: Galaxia Gutenberg, 2009.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-problemáticas-de-la-literatura-argentina-e-hispanoamericana" class="anchor" href="#problemáticas-de-la-literatura-argentina-e-hispanoamericana" aria-hidden="true"></a>PROBLEMÁTICAS DE LA LITERATURA ARGENTINA E HISPANOAMERICANA</h4>
+<ul>
+<li>AAVV, 1997, Dossier “Periodización y región” en Memorias JALLA Tucumán 1995, Vol. II. Tucumán: Facultad de Filosofía y Letras, UNT.</li>
+<li>Bueno Chávez, Raúl, 1995, “Teoría y práctica de lo complejo: sobre la diversidad cultural y literaria de América Latina (con una crítica al modelo rizoma del mundo)” en Memorias JALLA Tucumán 1995, Vol. I. Dossier “Mestizaje, transculturación, heterogeneidad”. Tucumán: Facultad de Filosofía y Letras, UNT.</li>
+<li>Cornejo Polar, Antonio, 1982, “Para una agenda problemática de la crítica literaria latinoamericana: diseño preliminar” en Sobre literatura y crítica literaria latinoamericana. Lima: Editorial de la Facultad de Humanidades y Educación. 1989, “La literatura peruana: totalidad contradictoria” en La formación de la tradición literaria en el Perú. Lima: Centro de Estudios y Publicaciones, 175-190.</li>
+<li>Kaliman, Ricardo, 1999, “Un marco (no ‘global’) para el estudio de las regiones culturales” en JILAS. Journal oflberian and Latín American Síudies, 5:2.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-3" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-3" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h4>
+<ul>
+<li>World Literary Atlas. Atlas que vincula ciudades y pueblos a las obras literarias en las que aparecen y los escritores que las crearon.</li>
+<li>Rincón castellano. Portal que ofrece cronologías, biografías y artículos sobre los distintos movimientos o épocas de la literatura española y sus obras cumbre.</li>
+<li>Biblioteca Virtual Miguel de Cervantes. La página de esta reconocida biblioteca incluye numerosos recursos para la enseñanza de la literatura española. En su apartado de Biblioteca española, por ejemplo, incluye un completo minisite sobre Poesía medieval y Cancioneros, y la herramienta Adaptaciones de la literatura española en el cine español, que permite acercar la literatura española a los alumnos a través del cine.</li>
+<li>Aula de Letras. Página web con recursos didácticos y enlaces a documentos y materiales recomendados para la asignatura de Literatura.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios-1" class="anchor" href="#observaciones-comentarios-1" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>Se problematiza en la carrera qué es literatura. A pesar que nos dan un panorama amplio y que debemos posicionarnos, ¿existe una definición adecuada para enseñar a los estudiantes de Literatura? En el sentido de consenso entre docentes. Escuche algunos docentes la definen como un arte y las bellas letras, es decir, como la definen los románticos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-literatura-regional-género-lírico" class="anchor" href="#literatura-regional-género-lírico" aria-hidden="true"></a>LITERATURA REGIONAL: GÉNERO LÍRICO</h3>
+<ul>
+<li>Contenidos comunes a 1°, 2° y 3° año</li>
+<li>Procedimientos del discurso literario según género</li>
+<li>Lecturas de poemas de la tradición oral y de autores regionales, nacionales y del mundo</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-6" class="anchor" href="#materia-cursada-y-bibliografía-6" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-2" class="anchor" href="#introducción-a-la-literatura-2" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Alfonso el Sabio y otros (1983) Poesía medieval galaicoportuguesa. Buenos Aires: CEAL.</li>
+<li>Deyermond, A.D. (2003) Historia de la literatura española La Edad Media. Barcelona, Ariel.</li>
+<li>Hauser, Arnold (1998) “El romanticismo de la caballería cortesana” en Op. Cit.</li>
+<li>Morillo Caballero, Manuel (2005) “Prólogo” en Romancero Viejo. Madrid: Ediciones Isla del Gallo.</li>
+<li>Santana, Nahuel (1983) “Estudio Preliminar” en Alfonso el Sabio y otros, Poesía medieval galaicoportuguesa. Buenos Aires: CEAL.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-prácticas-críticas" class="anchor" href="#prácticas-críticas" aria-hidden="true"></a>PRÁCTICAS CRÍTICAS</h4>
+<ul>
+<li>Genovese, Alicia (2010) “Surfear en el oleaje del verso libre” en El verso libre. Adúriz Javier et Al. Comps. Buenos Aires: Ediciones del Dock.</li>
+<li>Genovese, Alicia (2011) “Poesía y modernidad” en Leer poesía. Lo leve, lo grave, lo opaco. Buenos Aires: FCE.</li>
+<li>Grass, Gunter (1990) “El poeta eventual” en Ensayos sobre literatura. México: FCE.</li>
+<li>Guzmán, Raquel (1992) “Regionalidad y textualidad” en AAVV Crítica literaria. Córdoba: EMCOR.</li>
+<li>Palermo, Zulma (1987) “Los arquetipos fundantes en la poesía de Jacobo Regen” en La región, el país. Salta: COBAS.</li>
+<li>Regen, Jacobo Poemas reunidos (1991).</li>
+<li>Regen, Jacobo Umbroso mundo (1971).</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-infantil-y-juvenil-2" class="anchor" href="#literatura-infantil-y-juvenil-2" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<ul>
+<li>Bajour, C. (2013) “Nadar en aguas inquietas: una aproximación a la poesía infantil de hoy”, disponible en <a href="http://www.imaqinaria.com.ar/2013/09/ruidin">http://www.imaqinaria.com.ar/2013/09/ruidin</a> '.-naguas-inquietas-una-aproximacion-a-la-poesia-infantil-de-hoy/</li>
+<li>Bajour, C. “Todo necesita del silencio. Respiración, cuerpo y pausa en la poesía infantil contemporánea”, disponible en <a href="https://linterna5vbosques.wordpress.com/2Q18/03/06/todQ-necesita-">https://linterna5vbosques.wordpress.com/2Q18/03/06/todQ-necesita-</a>(lol silenciocecilia-baiour-respiracion-cuerpo-v-paüsa-en-la-poes¡a-¡nfant¡l-conieniiioi.nii!.</li>
+<li>Anónimo, (2006) Chumba La Cachumba, Caracas:«Ekaré</li>
+<li>GQ Baranda, María y Gabriel Pacheco (2010) Hago de voz un cuerpo, México Fondo de Cultura Económica.</li>
+<li>Moyano, Liliana e Ivana Myszkoroski (2004) Nanas para bichos inquietos. Córdoba: Comunicarte</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-4" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-4" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h3>
+<ul>
+<li>En esta secuencia didáctica se tratan aspectos importantes sobre la comprensión e interpretación de los textos poéticos.  El formato y características de un poema, así como se valorará y desarrollará el sentido estético. Esta secuencia didáctica se trabaja, además, de forma colaborativa y participativa. Para que el trabajo sea óptimo, es preciso seguir las pautas y orientaciones que en cada actividad se indican teniendo siempre presente las fuentes de información que se proponen:<br>
+<a href="http://recursostic.educacion.es/multidisciplinar/itfor/web/sites/default/files/recursos/elpoema/html/LENG27RDE_imprimir_alumnado.pdf">http://recursostic.educacion.es/multidisciplinar/itfor/web/sites/default/files/recursos/elpoema/html/LENG27RDE_imprimir_alumnado.pdf</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios-2" class="anchor" href="#observaciones-comentarios-2" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>Por qué la distinción entre literatura regional,  nacional y del mundo como algo común a los cinco años y luego se específica en cada área.</li>
+<li>Asimismo, se sigue presentando la idea de centro y periferia entre Buenos Aires y el resto del país, Bs As y Europa, etc.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-género-narrativo--fantástico" class="anchor" href="#género-narrativo--fantástico" aria-hidden="true"></a>GÉNERO NARRATIVO – FANTÁSTICO</h3>
+<ul>
+<li>Contenidos comunes a 1°, 2° y 3° año</li>
+<li>Literatura Regional Nacional y del Mundo</li>
+<li>Itinerario personal de lectura</li>
+<li>Procedimientos del discurso literario según género: Cuentos y novela</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-7" class="anchor" href="#materia-cursada-y-bibliografía-7" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-3" class="anchor" href="#introducción-a-la-literatura-3" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Bowra, Cecil (1972) La imaginación romántica. Madrid: Taurus.</li>
+<li>Calvino ítalo (2010) “Introducción” en Cuentos fantásticos del XIX. Madrid: Siruela.</li>
+<li>Gandolfo, Elvio (2007) “Narraciones fantásticas” en El libro de los géneros. Buenos Aires: Norma.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-teoría-literaria-i-1" class="anchor" href="#teoría-literaria-i-1" aria-hidden="true"></a>TEORÍA LITERARIA I</h4>
+<p>(textos literarios específicos de NOA)</p>
+<ul>
+<li>Medina, Daniel “Entrevista con un escritor mutante” en La Gaceta. Salta 15 de marzo de 2015.</li>
+<li>España, Rodrigo “Fibonacci” y “Cogote en el espacio sideral”.</li>
+<li>Medina, Daniel (2014) “Almuerzo en familia” en  Oparricidios. Jujuy: Intravenosa.</li>
+<li>Martínez, Fabio (2013) Los pibes suicidas. Cosquín: Editorial Nudista</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-infantil-y-juvenil-3" class="anchor" href="#literatura-infantil-y-juvenil-3" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<p>(Nacional y del mundo)</p>
+<ul>
+<li>Bodoc, L. (2000) Los días del venado; Buenos Aires: Norma</li>
+<li>Bodoc, L. (2006) Los días de la sombra; Buenos Aires: Norma*</li>
+<li>Bodoc, L (2007) Los días del fuego; Buenos Aires: Norma</li>
+<li>Hanán Díaz, Fannuel (2007), Leer y mirar el libro álbum: ¿un género en construcción?, Bogotá: Norma</li>
+<li>Moebius, William (2005) “introducción a los códigos del libro álbum” en El libio álbum, invención y evolución de un género para niños, Caracas: Banco del libro</li>
+<li>Sagrillo, S. (2011) La otra voz en La saga de los confines. Un estudio sobre la trilogía de Liliana Bodoc; Mendoza: EDIUNC</li>
+<li>Shulevitz, Uri (2005) ¿Qué es un libro álbum? en B libro álbum, invención revolución de un género para niños, Caracas: Banco del libro</li>
+<li>Tan, Sh. (2005) La cosa perdida; Madrid: Bárbara Fiore Editora</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-extranjera-1" class="anchor" href="#literatura-extranjera-1" aria-hidden="true"></a>LITERATURA EXTRANJERA</h4>
+<ul>
+<li>MARTÍNEZ ESTRADA, Ezequieí. Realidad y fantasía en Balzac. Bahía Blanca: Instituto de Humanidades. Universidad Nacional del Sur, 1964</li>
+<li>PIGLIA, Ricardo. “Tesis sobre el cuento” en Crítica y ficción. Buenos Aires: Ediciones Fausto, 1993</li>
+<li>ROAS, David. “La amenaza de lo fantástico” en David Roas (ed.), Teorías de lo fantástico. Madrid: Arco/Libros, 2001.</li>
+<li>ROAS, David. “El realismo de lo fantástico” en Tras los límites de lo real. Una definición de ¡o fantástico. Madrid: Páginas de espuma, 2011</li>
+<li>TODOROV, Tzvetan. Introducción a la literatura fantástica. México: Coyoacán, 2003.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-argentina-1" class="anchor" href="#literatura-argentina-1" aria-hidden="true"></a>LITERATURA ARGENTINA</h4>
+<ul>
+<li>Batticuorc, Graciela, “Fervores patrios: Juana Manuela Gorriti”, en Jilrik, Noé (Dir.¿ Historia critica de la literatura argentina, vol. 2, Buenos Aires, Emecé, 2004, pp. 589-612. - La mujer romántica. Lectoras, autoras y escritoras en la Argentina: 1830-1870, Buenos Aires, Edhasa, 2005.</li>
+<li>Cohén [mach, Victoria, «Una vida de dolor y expiación “La Hija del Mashorquero. Leyenda histórica”», en Entre velos. Mujeres y vida religiosa en textos de Juana Manuela Gorriti y otros escritores del siglo XIX, Rosario, Prohistoria, 2017, pp. 420-427.</li>
+<li>Royo, Amelia, “Una perspectiva de la tiranía de Rosas” y “La mirada femenina en la formación del imaginario nacional”, en Royo, Amelia (Comp.), Juana Manuela, mucho papel, Salta, Ediciones del Robledal, 1999, pp. 153-229.</li>
+<li>Saenz-Roby, María Cecilia, El irreverente discurso fundacional de Juan Manuela Gorriti, Buenos Aires, Corregidor, 2013. (bibliografía narrativa- novela)</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Rotger, Patricia, Memoria sin tiempo. Prácticas narrativas de la memoria en escritoras argentinas de la posdictadura, Córdoba, Comunicarte, 2014.</li>
+<li>Barrenechea, Ana María, “líl infinito” y “El caos y el cosmos”, en La expresión de la irrealidad en la obra de Borges, Buenos Aires, CEAL, 1984, pp. 18-59.</li>
+<li>Bastos, María Luisa, Borges antela critica argentina, ¡923-1960, Buenos Aires, Hispamérica, 1974.</li>
+<li>Jackson, Rosie, «Lo “oculto” de la cultura», en Roas, David (Comp.), Teorías de lo fantástico, Madrid, Arco Libros, 2001, pp. 141-152.</li>
+<li>Fojo, María Rosa, «La “conversión” del héroe en los cuentos de Borges», en Dubatti, Jorge (Compilador), Poéticas argentinas del siglo XX. (Literatura y teatro), Buenos Aires, Editorial de Belgrano, 1998, pp. 21-43.</li>
+<li>Molloy, Silvia, Las letras de Borges y otros ensayos, Rosario, Beatriz Viterbo, 1999.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Sarlo, Beatriz, Borges, un escritor en las orillas, Buenos Aires, Ariel, 1995.</li>
+<li>“Una poética de la ficción”, en Jitrik, Noé (Dir.), Historia critica de la literatura argentina, vol. 9, Buenos Aires, Emecé, 2004, pp. 19-38.</li>
+<li>Todorov, Tzvetan, “Definición de lo fantástico”, en Roas, 1 )avid (Comp.), Teorías de lo fantástico, Madrid, Arco Libros, 2001, pp. 47-64.</li>
+<li>La preeminencia del cuento fantástico a partir de la década de 1940: el magisterio de Jorge Luis Borges. Selección de cuentos de Ficciones (1944) y ElAleph (1949).</li>
+<li>Las reactualizaciones Indicas de Julio Cortázar. Selección de cuentos de Bestiario (1951) y Final del juego (1964).</li>
+<li>La crueldad insospechada de Silvina Ocampo. Selección de cuentos de Viaje olvidado (1937), Autobiografía de Irene (194S), La Juna (1959) y Las invitadas (1961).</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-problemáticas-de-la-literatura-argentina-e-hispanoamericana-1" class="anchor" href="#problemáticas-de-la-literatura-argentina-e-hispanoamericana-1" aria-hidden="true"></a>PROBLEMÁTICAS DE LA LITERATURA ARGENTINA E HISPANOAMERICANA</h4>
+<ul>
+<li>Altuna, Elena y Zulma Palermo, 1996a, Una literatura y su historia I. Propuesta. Fascículo y Antología 1. Salta: Consejo de Investigaciones. , 1996b, Una literatura y su historia II. Región literaria. Fascículo y Antología 2. Salta: Consejo de Investigaciones.</li>
+<li>Kaliman, R., 1993, “La palabra que produce regiones: Castilla, Aparicio, Pereira” en Cuaderno de Cultura. Salta: Departamento de Cultura Banco Credicoop.</li>
+<li>Palermo, Z., 2000, “Una escritura de fronteras: Salta en el NOa” en Inti: Revista de literatura hispánica: No. 52. Disponible en: <a href="http://digitalcominons.providence.edu/cgi/vievvcontent.cgi">http://digitalcominons.providence.edu/cgi/vievvcontent.cgi</a>’?art¡cle^ 1818&amp;context=ínti Poderti, A., 1991, La cultura popular en la escritura de Carlos Hugo Aparicio. Salta: Fundación del Banco del Noroeste</li>
+<li>Pizarro, Ana, 1997, “Interrogar a los textos en el espacio de la historia: período y región” en Memorias JALLA Tucumán 1995, Vol. II. Dossier “Periodización y región”. Tucumán: Facultad de Filosofía y Letras, UNT.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-5" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-5" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h3>
+<ul>
+<li>Se analizan textos tanto históricos como literarios siguiendo el hilo conductor de la conformación de la identidad nacional argentina. En cuanto al nivel de complejidad de los temas, su forma de abordaje y las actividades que se propongan, se propiciará la reflexión sobre los textos que atraviesan los ejes generales del pensamiento argentino para desarrollar la capacidad crítica y argumentativa de las y los estudiantes.<br>
+<a href="http://www.bnm.me.gov.ar/giga1/documentos/EL004340.pdf">http://www.bnm.me.gov.ar/giga1/documentos/EL004340.pdf</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-2" class="anchor" href="#contenido-del-diseño-curricular-2" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-género-dramático-teatro" class="anchor" href="#género-dramático-teatro" aria-hidden="true"></a>GÉNERO DRAMÁTICO. TEATRO</h4>
+<p>1°, 2 y 3° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-8" class="anchor" href="#materia-cursada-y-bibliografía-8" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-4" class="anchor" href="#introducción-a-la-literatura-4" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Berthold, M. (1974) “El teatro isabelino” en Historia social del teatro 2. Madrid: Guadarrama.</li>
+<li>Bloom, Harold (2001) Shakespeare/ la invención de lo humano. Colombia: Grupo Norma.</li>
+<li>Kierkegaard, Soren (2005) De la tragedia. Buenos Aires: Ed. Quadrata.</li>
+<li>Steiner, George (1996) Antígonas: una poética y una filosofía de la lectura. Barcelona: Gedisa.(1987) Antígonas. Barcelona: Gedisa.</li>
+<li>Vernant, Jean Pierre (2002) Mito y tragedia en la Grecia antigua I y II. Barcelona: Paidós. Auden, W. H (2004) El mundo de Shakespeare. Buenos Aires:A. Hidalgo Ed</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-argentina-2" class="anchor" href="#literatura-argentina-2" aria-hidden="true"></a>LITERATURA ARGENTINA</h4>
+<ul>
+<li>Giella, Miguel Ángel, “Introducción”, en Teatro abierto 1981, Vol. I, Buenos Aires, Corregidor, pp. 13-64 y 75-83. “Teatro abierto 1981 y la crítica teatral periodística”, en Pellettieri, Osvaldo (Edit), Imagen del teatro, Buenos Aires, Galerna, 2002, pp. 189-195.</li>
+<li>Masiello, Francine, “La Argentina durante el Proceso: las múltiples resistencias de la cultura”, en AAW, Ficción y política. La narrativa argentina durante el proceso militar, Alianza Editorial / Institute f’or Üie Study of Ideologies &amp; Lilerature, University of Minnesota, Buenos Aires, 1987, pp. 11-29.</li>
+<li>Pellettieri, Osvaldo, “El teatro argentino de los sesenta y su proyección en la actualidad”, en Cien años de teatro argentino. Del Moreira a Teatro abierto, Buenos Aires, Galerna, 1994, pp. 129- 144.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-observaciones-comentarios-3" class="anchor" href="#observaciones-comentarios-3" aria-hidden="true"></a>Observaciones/ Comentarios</h3>
+<ul>
+<li>A pesar que en el CDCS es específico con los temas tratados en los diferentes años, existe también una libertad para la selección de textos puesto que aparece en los cinco años Literatura Regional, Nacional, del Mundo</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-3" class="anchor" href="#contenido-del-diseño-curricular-3" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-género-narrativo-regional-nacional-y-del-mundo" class="anchor" href="#género-narrativo-regional-nacional-y-del-mundo" aria-hidden="true"></a>Género Narrativo Regional, Nacional y del mundo</h4>
+<p>1°, 2°, 3°</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-9" class="anchor" href="#materia-cursada-y-bibliografía-9" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-problemáticas-de-la-literatura-argentina-e-hispanoamericana-2" class="anchor" href="#problemáticas-de-la-literatura-argentina-e-hispanoamericana-2" aria-hidden="true"></a>PROBLEMÁTICAS DE LA LITERATURA ARGENTINA E HISPANOAMERICANA</h4>
+<p>(Bibliografía específica de textos literarios)</p>
+<ul>
+<li>López, Irene, 2017, &quot;Pensar con sonidos. Los universos musicales en El Trino del Diablo de</li>
+<li>Daniel Moyano&quot;. En Catedral Tomada. Revista de Crítica Literaria Latinoamericana, Vol. 5</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-4" class="anchor" href="#contenido-del-diseño-curricular-4" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-renacimiento" class="anchor" href="#renacimiento" aria-hidden="true"></a>RENACIMIENTO</h4>
+<p>Contenido específico de 5° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-10" class="anchor" href="#materia-cursada-y-bibliografía-10" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-5" class="anchor" href="#introducción-a-la-literatura-5" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Charpentier, Francoise (2009) “Una educación de príncipe. Gargrantúa XI” en Artal, Susana G.(dir. ) Para leer a .Rabelais. Miradas plurales sobre un texto singular. Buenos Aires: Eudeba.</li>
+<li>Bajtin, Mijail (1988) “El banquete de Rabelais” y “La
+imagen grotesca del cuerpo en Rabelais y sus fuentes” en La cultura popular en la Edad Media y el Renacimiento.Madrid: Alianza Editorial.</li>
+<li>Butor, Michel (1967) “Rabelais” Sobre literatura II. Barcelona: Seix Barral.</li>
+<li>Tacca, Osear (1989) Las voces de la novela. Madrid: Credos</li>
+</ul>
+<h4><a id="user-content-literatura-española" class="anchor" href="#literatura-española" aria-hidden="true"></a>LITERATURA ESPAÑOLA</h4>
+<ul>
+<li>Parker, Alexander (1982) “Dimensiones del Renacimiento Español” en Historia y crítica de la literatura española. Siglos de Oro: Renacimiento. Tomo 2. Francisco López Estrada (Coord.). Barcelona: Crítica.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-5" class="anchor" href="#contenido-del-diseño-curricular-5" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-barroco" class="anchor" href="#barroco" aria-hidden="true"></a>BARROCO</h4>
+<p>Contenidos de 4°y 5° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-11" class="anchor" href="#materia-cursada-y-bibliografía-11" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-6" class="anchor" href="#introducción-a-la-literatura-6" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Auden, W. H (2004) El mundo de Shakespeare. Buenos Aires: A. Hidalgo Ed.</li>
+<li>Berthold, M. (1974) “El teatro isabelino” en Historia social del teatro 2. Madrid: Guadarrama.</li>
+<li>Bloom, Harold (2001) Shakespeare/ la invención de lo humano. Colombia: Grupo Norma.</li>
+<li>Kierkegaard, Soren (2005) De la tragedia. Buenos Aires: Ed. Quadrata.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-hispanoamericana" class="anchor" href="#hispanoamericana" aria-hidden="true"></a>HISPANOAMERICANA</h4>
+<ul>
+<li>Moraña, Mabel (1998) “Introducción”, “Hacia una caracterización del Barroco de Indias” y “Orden dogmático y la marginalidad en la Carta a Monterrey de Sor Juana Inés de la Cruz” en Viaje al silencio. Exploraciones del discurso barroco.</li>
+<li>Paz, Octavio (1985) Sor Juana Inés de la Cruz. Las trampas de la fe. México: FCE.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-6" class="anchor" href="#contenido-del-diseño-curricular-6" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-neoclacisismo" class="anchor" href="#neoclacisismo" aria-hidden="true"></a>NEOCLACISISMO</h4>
+<p>Contenidos de 4°y 5° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-12" class="anchor" href="#materia-cursada-y-bibliografía-12" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-7" class="anchor" href="#introducción-a-la-literatura-7" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Aguiar e Silva, V. M. (1979) “Clasicismo y Neoclasicismo” Teoría de la literatura. Madrid: Gredos.</li>
+<li>Aristóteles (1966) Poética. Madrid: Aguilar. S. A. de Ediciones.</li>
+<li>Bowra, C. M. (1964) La literatura griega. México: F.C.E. (1968) Introducción a la literatura griega. México: F.C.E.</li>
+<li>Fernández, Claudia (2008) “Clasicismos” en Amicola, José y De Diego, J.L. (dir.) La teoría literaria hoy. Conceptos, enfogues, debates, La Plata: Al margen,</li>
+<li>García Cual, Carlos (1995) “Propuesta de definición del término mito” en Introducción a la mitología griega, Alianza.</li>
+<li>Hauser, Arnold (1998) “La edad heroica y la edad homérica” y “Clasicismo y democracia” en Op. Cit.</li>
+<li>Kierkegard, Soren (2005) De la tragedia. Buenos Aires: Ed Quadrata.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-hispanoamericana-1" class="anchor" href="#hispanoamericana-1" aria-hidden="true"></a>HISPANOAMERICANA</h4>
+<ul>
+<li>Neoclasicismo e Incaísmo, en “El diálogo entre Atahualpa y Fernando VII en los Campos Elíseos” (1809) de Bernardo de Monteagudo</li>
+</ul>
+<h4><a id="user-content-grecolatina" class="anchor" href="#grecolatina" aria-hidden="true"></a>GRECOLATINA</h4>
+<ul>
+<li>Iriarte, Inés (1996) Democracia y tragedia. La era de Pericles.Madrid: Akal</li>
+<li>Juliá, Victoria (edit.) (2006) La tragedia griega. Buenos Aires: La isla de la Luna.</li>
+<li>Lesky (1966) La tragedia griega. Barcelona, Labor.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-7" class="anchor" href="#contenido-del-diseño-curricular-7" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-romanticismo" class="anchor" href="#romanticismo" aria-hidden="true"></a>ROMANTICISMO</h4>
+<p>Contenidos de 4°y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-13" class="anchor" href="#materia-cursada-y-bibliografía-13" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-8" class="anchor" href="#introducción-a-la-literatura-8" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Hauser, Arnold (1998) “El romanticismo de la caballería cortesana” en Op. Cit.</li>
+</ul>
+<h4><a id="user-content-literatura-argentina-3" class="anchor" href="#literatura-argentina-3" aria-hidden="true"></a>LITERATURA ARGENTINA</h4>
+<ul>
+<li>Ghiano, Juan Carlos, El matadero de Esteban Echeverría y el costumbrismo, Buenos Aires, CEAL,1968.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-extranjera-2" class="anchor" href="#literatura-extranjera-2" aria-hidden="true"></a>LITERATURA EXTRANJERA</h4>
+<ul>
+<li>BERLÍN, Isaiah. Las raíces del romanticismo. Buenos Aires: Taurus, 2015</li>
+<li>BLOOM, Harold. La compañía visionaria. Lord Byron- Shelley. Buenos Aires: Adriana Hidalgo editora, 2000</li>
+<li>BLOOM, Harold. La compañía visionaria. Wordsworth, Coledge y Keats. Buenos Aires: Adriana Hidalgo editora, 2001</li>
+<li>BOWRA, C.M. La imaginación romántica. Madrid: Taurus, 1972</li>
+<li>COMBE, Dominique. “La referencia desdoblada: el sujeto lírico entre la ficción y la autobiografía” en Cabo Aseguinolaza, Fernando (comp.) Teorías sobre la lírica, Madrid: Arco libros, 1999</li>
+<li>PAZ, Octavio. El arco y la lira. México: FCE, 1982</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>REYES ORRACA, Montserrat. “El reinado del caos. Una breve historia de la literatura gótica” en Coloquio Internacional Gótico I y II 2008-2009 (Miriam Guzmán y Antonio Alcalá, compiladores). México: Samsara, 2011.</li>
+<li>SCHAEFFER, Jean- Marie “Romanticismo y lenguaje poético” en Cabo Aseguinolaza,</li>
+<li>Fernando (comp.) Teorías sobre la lírica, Madrid: Arco libros, 1999</li>
+<li>TODOROV, Tzvetan “En torno a la poesía” en Los géneros del discurso. Caracas: Monte Ávila, 1991</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-8" class="anchor" href="#contenido-del-diseño-curricular-8" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-realismo" class="anchor" href="#realismo" aria-hidden="true"></a>REALISMO</h4>
+<p>Contenidos de 4°y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-14" class="anchor" href="#materia-cursada-y-bibliografía-14" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-introducción-a-la-literatura-9" class="anchor" href="#introducción-a-la-literatura-9" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>El realismo y los debates en torno a la representación. Descripción y narración en la configuración del tiempo y el espacio. Bola de sebo de Guy de Maupassant y El jugador de Fiódor Dostoiveski.</li>
+</ul>
+<h4><a id="user-content-teoría-literaria-i-2" class="anchor" href="#teoría-literaria-i-2" aria-hidden="true"></a>TEORÍA LITERARIA I</h4>
+<ul>
+<li>Aparicio, Carlos Hugo (1986) “Las sobras” en Sombra del fondo. Buenos Aires: Legasa.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-infantil-y-juvenil-4" class="anchor" href="#literatura-infantil-y-juvenil-4" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<ul>
+<li>Dwight Molden, L. (1993) El mejor truco del abuelo, México: Pondo do Cultura Económico</li>
+<li>Lago, A. (1999) De noche en la calle; Caracas: Ekaré</li>
+<li>Lacerda, N. (2009) Pluma de ganso; Bogotá: Babel libros</li>
+</ul>
+<h4><a id="user-content-literatura-argentina-bibliografía-cuentos" class="anchor" href="#literatura-argentina-bibliografía-cuentos" aria-hidden="true"></a>LITERATURA ARGENTINA (bibliografía cuentos)</h4>
+<ul>
+<li>Nallim, Alejandra, “La muerte blanca como metáfora cultural y frontera literaria del NOA. Abordaje comparativo de dos cuentos de Juan Carlos Dávalos y Daniel Ovejero”, en Massara, Liliana (Comp.), Narrarla Argentina. Centenario, región e identidad, San Miguel de Tucumán, 11LAC, 2016, pp. 189-212.</li>
+<li>Sosa, Carlos Hernán, «Refundaciones de la “salteñidad”: Juan Carlos Dávalos y su relectura del discurso nacionalista del Centenario», en Nilda María Flawiá (Comp.), Momentos, textos, escrituras (1900-1930), Buenos Aires, Corregidor, 2015, pp. 197-218.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-9" class="anchor" href="#contenido-del-diseño-curricular-9" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-modernismo" class="anchor" href="#modernismo" aria-hidden="true"></a>MODERNISMO</h4>
+<p>Contenidos de 4°y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios-4" class="anchor" href="#observaciones-comentarios-4" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>El modernismo aparece en el programa de Literatura Hispanoamericana pero no llegamos a trabajarlo.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-10" class="anchor" href="#contenido-del-diseño-curricular-10" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-simbolismo" class="anchor" href="#simbolismo" aria-hidden="true"></a>SIMBOLISMO</h4>
+<p>Contenidos de 4°y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-introducción-a-la-literatura-10" class="anchor" href="#introducción-a-la-literatura-10" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Balakian, Ana (1969) El movimiento Guadarrama. simbolista. Madrid</li>
+<li>Benjamín, Walter (2010) “Sobre algunos temas de Baudelaire” Ensayos escogidos. Buenos Aires: El cuenco de plata.</li>
+<li>Dorra, Raúl (2000) “El lenguaje: problemas de la forma y el sentido (la metáfora, la metonimia y la sinécdoque)” en Hablar cíe Literatura. México: F.C.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-11" class="anchor" href="#contenido-del-diseño-curricular-11" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-vanguardias" class="anchor" href="#vanguardias" aria-hidden="true"></a>VANGUARDIAS</h4>
+<p>Contenidos de 4°y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-15" class="anchor" href="#materia-cursada-y-bibliografía-15" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-literatura-argentina-4" class="anchor" href="#literatura-argentina-4" aria-hidden="true"></a>LITERATURA ARGENTINA</h4>
+<ul>
+<li>Masiello, Francine, “Contra la naturaleza: el paisaje de la vanguardia”, en Lenguaje e ideología. Las escudas argentinas de vanguardia, Buenos Aires, Hachette, 1986, pp. 107-133.</li>
+<li>Muschictti, Dclfina, “La trac tura ideológica en los primeros poemas de Oliverio Girondo”, en Filología, año XX, n° 1, Facultad de Filosofía y Letras, Universidad de Buenos Aires, 1985, pp. 153-169. “El sujeto como cuerpo en dos poetas de vanguardia. (César Vallejo y Oliverio Girondo)”, en Filología, año XXIII, n° 1, Facultad de Filosofía y Letras, Universidad de Buenos Aires, 1988, pp. 127-149.</li>
+<li>“Oliverio Girondo y el giro de la tradición”, en Jitrik, Noé (Dir.), Historia crítica de la literatura argentina, vol. 7, Buenos Aires, Emecé, 2009, pp. 121-145.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Sarlo, Beatriz, “Buenos Aires, ciudad moderna” y “Respuestas, invenciones y desplazamientos”, en Una modernidad periférica: Buenos Aires 1920 y 1930, Buenos Aires, Nueva Visión, 1999, pp. 13-67.</li>
+<li>Sarlo, Beatriz, “Vanguardia y criollismo: la aventura de Martín Fierro”, en Altamirano, Carlos y Sarlo, Beatriz, Ensayos argentinos. De Sarmiento a las vanguardias, Buenos Aires, Ariel, 1997, pp 211- 260.</li>
+<li>Schwartz, Jorge, “Veinte poemas: un texto carnavalesco”, en Vanguardia y cosmopolitismo en década del veinte. Oliverio Girando y Oswald de Andrade, Rosario, Beatriz Viterbo, 1993, pp 139-174. “Ver / leer: el júbilo de la mirada en Oliverio Girondo”, en Girondo, Oliverio, Obra completa, Barcelona, Colección Archivos, Madrid, 1999, pp. 490-510.</li>
+<li>Yurkievich, Saúl, “Oliverio Girondo”, en Fundadores de la nueva poesía latinoamericana, Barcelona, Edhasa, 2002, pp. 201-228.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-extranjera-3" class="anchor" href="#literatura-extranjera-3" aria-hidden="true"></a>LITERATURA EXTRANJERA</h4>
+<ul>
+<li>CAMUS, Albert. El mito de Sísifo. Buenos Aires: Losada, 2010</li>
+<li>ESSLIN, Martin. El teatro del absurdo. Barcelona: Seix Barral, 1966</li>
+<li>OLIVA, César y TORRES MONREAL, Francisco. “Los grandes innovadores”, en Historia básica del arte escénico. Madrid: Cátedra, 1994</li>
+<li>WRIGHT, Edward. Para comprender el teatro actual. Buenos Aires: FCE, 1989</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-12" class="anchor" href="#contenido-del-diseño-curricular-12" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-realismo-mágico" class="anchor" href="#realismo-mágico" aria-hidden="true"></a>Realismo Mágico</h4>
+<p>Contenidos de 4° y 5°  año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-16" class="anchor" href="#materia-cursada-y-bibliografía-16" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-problemáticas-de-la-literatura-argentina-e-hispanoamericana-3" class="anchor" href="#problemáticas-de-la-literatura-argentina-e-hispanoamericana-3" aria-hidden="true"></a>PROBLEMÁTICAS DE LA LITERATURA ARGENTINA E HISPANOAMERICANA</h4>
+<ul>
+<li>Báez León, Jaime Andrés, 2016, “Debate Arguedas-Cortázar: la profesionalización del escritor durante la época del boom” en Runa Yachachiy. Revista digital. I Semestre 2016, Berlín.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-6" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-6" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h3>
+<ul>
+<li>Canal Encuentro saco una serie de cuatro capítulos donde aborda el problema de los escritores del Boom latinoamericano titulada “Impriman la leyenda” en: <a href="https://www.youtube.com/watch?v=pQD4CfH8TLg">https://www.youtube.com/watch?v=pQD4CfH8TLg</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios-5" class="anchor" href="#observaciones-comentarios-5" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>En esta materia solo se problematiza entre escritores del Boom latinoamerican, es decir, con el Gabriel García Márquez, Julio Cortázar y Carlos Fuentes y el resto de los escritores latinoamericanos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-13" class="anchor" href="#contenido-del-diseño-curricular-13" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-ironía-y-parodia-humor" class="anchor" href="#ironía-y-parodia-humor" aria-hidden="true"></a>Ironía y parodia. Humor</h4>
+<p>Contenidos de 4° y 5° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-17" class="anchor" href="#materia-cursada-y-bibliografía-17" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-literatura-infantil-y-juvenil-5" class="anchor" href="#literatura-infantil-y-juvenil-5" aria-hidden="true"></a>LITERATURA INFANTIL Y JUVENIL</h4>
+<p>Bibliografía teórica</p>
+<ul>
+<li>Carranza, M. (2012). “Los clásicos infantiles, esos inadaptados de siempre. Algunas cuestiones sobre la adaptación en la literatura infantil” en Imaginaria, N° 313, 8/5/12</li>
+<li>Genette, G. (1989) Palimpsestos. La literatura en segundo grado; Madrid: Taurus</li>
+<li>Soriano, M. (1999) La literatura para niños y jóvenes. Guía de exploración de sus grandes temas; Buenos Aires: Colihue Bibliografía Literaria</li>
+<li>A.A.V.V. (2017) “La bella durmiente del bosque” en Cuentos inolvidables, Buenos Aires: GOLU</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Gaiman, N. (2015). La joven durmiente y el huso. Barcelona: Salamandra</li>
+<li>Grimm, (2000). “La bella durmiente del bosque” en Cuentos de Grimm, México: Porrúa</li>
+<li>Perrault, C.(1996). “La bella durmiente del bosque” en Cuentos de Perrault, México: Porrúa</li>
+<li>Perrault, C.(S/D). La bella durmiente. Buenos Aires: Colección Cuentos de la Valijita</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-7" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-7" aria-hidden="true"></a>Enlaces y títulos de materiales curriculares en los que se trabaja el contenido</h3>
+<ul>
+<li>Propuesta didáctica para trabajar la Parodia en la pág. 61: <a href="http://repository.ut.edu.co/bitstream/001/3058/1/CD7007.pdf">http://repository.ut.edu.co/bitstream/001/3058/1/CD7007.pdf</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-14" class="anchor" href="#contenido-del-diseño-curricular-14" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-literatura-española-1" class="anchor" href="#literatura-española-1" aria-hidden="true"></a>LITERATURA ESPAÑOLA</h4>
+<p>específico para 5° año</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-18" class="anchor" href="#materia-cursada-y-bibliografía-18" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-literatura-española-2" class="anchor" href="#literatura-española-2" aria-hidden="true"></a>LITERATURA ESPAÑOLA</h4>
+<ul>
+<li>GARCIA DE CORTÁZAR, Fernando y José Manuel González Vesga, «La monarquía universal», en Breve historia de España, Barcelona, Alianza, 1994, p. 238-245.</li>
+<li>BALTANAS, Enrique, “El matrimonio imposible de Calisto y Melibea (Notas a un enigma)”, Lemir [Revista electrónica de Literatura Española medieval y del Renacimiento],5, 2001,<a href="http://parnaseo.uv.es/Lemir/Revista/Revista5/Calisto/">http://parnaseo.uv.es/Lemir/Revista/Revista5/Calisto/</a></li>
+<li>Baltanas.htm DEYERMOND, Alan, “El que quiere comer el ave”: Melibea como artículo de consumo», Medievalia, 40, p.2008,45-52,disponible en <a href="http://www.revistas.unam">http://www.revistas.unam</a>. mx/index.php/medievalia/issue/view/2266</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>DIEZ DE REVENGA, Francisco Javier, “Jorge Manrique o la serenidad ante la muerte”, 37-43. Universidad de Murcia, en el V Centenario de Jorge Manrique. En <a href="https://digitum.um.es/digitum/bitstream/10201/15149/1/08%20vol66%20Jorge%20Manrique%20o%20la%20serenidad%20ante%20la%20muerte.pdf">https://digitum.um.es/digitum/bitstream/10201/15149/1/08 vol66 Jorge Manrique o la serenidad ante la muerte.pdf</a></li>
+<li>LIDA, Maria Rosa, “Los autores y los tiempos”, “La Celestina: algunos aspectos de su técnica dramática”, “Los caracteres”, en Dos obras maestras españolas. El Libro de Buen Amor y La Celestina. Buenos Aires, Eudeba, 1966, p.11-27, 80-96, 97-111.</li>
+<li>Cash, Annette (2004) “La técnica estilística del uso de las listas en el Quijote” en Peregrinamente, peregrinos. V actas de la asociación de Cervantistas. CINDAC.</li>
+<li>Johnson, Carrol B. (1995) “Cómo se lee hoy el Quijote” en Cervantes AA.VV. Madrid: Centro de Estudios Cervantinos.</li>
+<li>Escalonilla López, Rosa Ana (2001) “Mujer y travestismo en el teatro de Calderón” en Revista de literatura. Tomo 63</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Ferrer Valls, Teresa (2003) “La fiesta en el Siglo de Oro: en los márgenes de la ilusión teatral” en Teatro y fiesta del Siglo de Oro en tierras europeas de los Austrias. Madrid: SEACEX.</li>
+<li>Impey, Olga T. (1986) “El dolor, la alegría y el tiempo en el Égloga III de Garcilaso” en Actas del IX de AIH.</li>
+<li>Rivers, Elías (1982) “La égloga y la paradoja del arte natural” en Historia y crítica de la literatura española. Siglos de Oro: Renacimiento. Tomo 2. Francisco López Estrada (Coord.). Barcelona: Crítica.</li>
+<li>Rodrigo Cacho, Casal (2007) “El ingenio del arte</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-hispanoamérica" class="anchor" href="#hispanoamérica" aria-hidden="true"></a>HISPANOAMÉRICA</h4>
+<ul>
+<li>Moraña, Mabel (1998) “Introducción”, “Hacia una caracterización del Barroco de Indias” y “Orden dogmático y la marginalidad en la Carta a Monterrey de Sor Juana Inés de la Cruz” en Viaje al silencio. Exploraciones del discurso barroco.</li>
+<li>Paz, Octavio (1985) Sor Juana Inés de la Cruz. Las trampas de la fe. México: FCE.</li>
+<li>Rama, Ángel (1984) La ciudad letrada. Hanover: Ediciones del norte.</li>
+<li>Altuna, Elena (2004) “Monteagudo en sus escritos y en sus imágenes” en El archivo de la independencia y la ficción contemporánea. Alicia Chibán (Coord.). Salta: CIUNSa.</li>
+<li>Romero, José Luis (1977) “Prólogo” en Pensamiento político de la emancipación (1790-1825). Tomo I. Caracas: Biblioteca Ayacucho</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-literatura-extranjera-4" class="anchor" href="#literatura-extranjera-4" aria-hidden="true"></a>LITERATURA EXTRANJERA</h4>
+<ul>
+<li>MAUPASSANT, Guy de. “La novela. Prólogo” en Pedro y Juan. Navarra: Salvat, 1983</li>
+<li>PALACIOS, Germán. “La obra narrativa de Flaubert. Tres cuentos.” en Gustave Flaubert. Obras. Navarra: Cátedra, 2005</li>
+<li>ZOLA, Émile. El naturalismo. Ensayos, manifiestos y artículos polémicos sobre la estética naturalista. Barcelona: Península, 2002.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-8" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-8" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h3>
+<ul>
+<li>Película de la Celestina: <a href="https://www.youtube.com/watch?v=qBftQg9Zcf0">https://www.youtube.com/watch?v=qBftQg9Zcf0</a></li>
+<li>Don Quijote de la Mancha. Completo y divertido interactivo para abordar con tus alumnos El ingeniosos hidalgo Don Quiote de la Mancha. Incluye juegos y actividades, entre otros recursos.</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a id="user-content-eje-en-relación-con-la-lengua-sistema-norma-y-usos-y-los-textos" class="anchor" href="#eje-en-relación-con-la-lengua-sistema-norma-y-usos-y-los-textos" aria-hidden="true"></a>EJE: EN RELACIÓN CON LA LENGUA (SISTEMA, NORMA Y USOS) Y LOS TEXTOS</h2>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-15" class="anchor" href="#contenido-del-diseño-curricular-15" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<h4><a id="user-content-valoración-de-las-lenguas-y-variedades-lingüísticas-nociones-de-dialecto-y-registro-del-habla-salteña" class="anchor" href="#valoración-de-las-lenguas-y-variedades-lingüísticas-nociones-de-dialecto-y-registro-del-habla-salteña" aria-hidden="true"></a>Valoración de las lenguas y variedades lingüísticas. Nociones de dialecto y registro del habla salteña.</h4>
+<p>Contenido específico de 1° y 2°</p>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-19" class="anchor" href="#materia-cursada-y-bibliografía-19" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-lingüística" class="anchor" href="#lingüística" aria-hidden="true"></a>LINGÜÍSTICA</h4>
+<ul>
+<li>De Saussure, F. (1971 [1945]) Introducción, primera y segunda parte&quot; Curso de lingüística general. Bs As.: Losada.</li>
+<li>De Saussure, F. (2004 [2002]) Escritos sobre lingüística general. Barcelona: Gedis</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-historia-de-la-lengua-española" class="anchor" href="#historia-de-la-lengua-española" aria-hidden="true"></a>HISTORIA DE LA LENGUA ESPAÑOLA</h4>
+<ul>
+<li>Alvar, Manuel (1996) Manual de dialectología hispánica. El español de América. Barcelona: Ed. Ariel Lingüística.</li>
+<li>Cano, Rafael [Coord.] (2004) Historia de la Lengua Española. Barcelona: Ariel.</li>
+<li>Coseriu, Eugenio (1978) Sincronía, diacronía e historia. Madrid: Gredos. Universidad Nacional de Salta Facultad de Humanidades 6</li>
+<li>Coseriu, Eugenio (1982) “Sistema, norma y habla” en Teoría del lenguaje y lingüística general. Madrid: Gredos</li>
+<li>Bustos, Eugenio y otr. (1993) Teoría y práctica de la historia de la lengua española. Madrid: Síntesis. Cano, Rafael (1992) El español a través de los tiempos. Madrid: Arco-Libros</li>
+<li>Cerrato Huapaya, Nadia Briyhit (2019) “El español andino”. Consultado en: <a href="http://repositorio.une.edu.pe/bitstream/handle/UNE/4269/El%20espa%C3%B1ol%20andino%201.pdf?sequence=1&amp;isAllowed=y">http://repositorio.une.edu.pe/bitstream/handle/UNE/4269/El español andino 1.pdf?sequence=1&amp;isAllowed=y</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>De Granda, Germán (1994) Español de América, español de África y hablas criollas hispánicas. Madrid: Gredos.</li>
+<li>Fernández Lávaque, Ana y Rodas, Juana (1998) Español y quechua en el noroeste argentino. Salta: Universidad Nacional de Salta-Gofica.</li>
+<li>Lipski, John (2004) El español de América. Madrid: Cátedra.
+Rivarola, José Luis (1990) “Bilingüismo histórico y español andino”. Pontificia Universidad Católica. Perú, Lima</li>
+<li>Vaquero de Ramírez, María (1996) El español de América 1 y 2. Madrid: Arco-Libros</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-9" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-9" aria-hidden="true"></a>Enlaces y títulos de materiales curriculares en los que se trabaja el contenido</h3>
+<ul>
+<li>“TIC en el aula: Enseñar y aprender con celulares” Variedades del Lenguaje
+<a href="http://eduteka.icesi.edu.co/proyectos.php/2/50780">http://eduteka.icesi.edu.co/proyectos.php/2/50780</a></li>
+<li>Presentación de Poemas en Qom y en español - Elda Sánchez y Amini. Presenta una entrevista a la poeta Quom <a href="https://www.youtube.com/watch?v=JoX6tqvULdU">https://www.youtube.com/watch?v=JoX6tqvULdU</a></li>
+<li>Historia de la lengua español. Es un video corto introductorio que sirve para explicar a los estudiantes sobre qué otros dialectos o lenguas se hablaba antes del español  <a href="https://www.youtube.com/watch?v=6SC1QNYDzeE">https://www.youtube.com/watch?v=6SC1QNYDzeE</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>El académico de la Real Academia Española (RAE) José Antonio Pascual y el actor Carlos Hipólito nos trasladan sobre las tablas del teatro de La Abadía de Madrid a escuchar la voz e historia del Libro de buen amor, composición extensa del mester de clerecía del siglo XIV, cuyo hilo conductor lo constituye el relato de la autobiografía ficticia del autor, Juan Ruiz, arcipreste de Hita. Nos muestra cómo se hablaba, es decir, las formas populares y cultas: <a href="https://www.youtube.com/watch?v=_mYYiuASR6Y&amp;t=71s">https://www.youtube.com/watch?v=_mYYiuASR6Y&amp;t=71s</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-observaciones-comentarios-6" class="anchor" href="#observaciones-comentarios-6" aria-hidden="true"></a>Observaciones/ Comentarios</h3>
+<ul>
+<li>Se menciona la “valoración de las lenguas pero solo de las que poseen gramática, puesto que presenta como una inclusión “aparente” de “dialectos” y luego se centra CDCS en la gramática española</li>
+<li>¿A qué se refiere con el habla salteña?</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-16" class="anchor" href="#contenido-del-diseño-curricular-16" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<p>Contenidos comunes a todos los años (1°, 2°, 3°, 4° y 5° año)</p>
+<ul>
+<li>Narración: estructura prototípica.</li>
+<li>Funciones de la descripción, diálogo.</li>
+<li>Personas gramaticales, tipos de narradores.</li>
+<li>Tiempos verbales propios del relato y sus correlaciones: conectores temporales, causales, etc.</li>
+<li>Estilo directo e indirecto</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-20" class="anchor" href="#materia-cursada-y-bibliografía-20" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-comprensión-y-producción-de-texto" class="anchor" href="#comprensión-y-producción-de-texto" aria-hidden="true"></a>COMPRENSIÓN Y PRODUCCIÓN DE TEXTO</h4>
+<ul>
+<li>Ares Ares, María Álida (2004) “Capítulo III: Aportaciones más relevantes para el análisis del discurso escrito” en Análisis de los textos escritos aportados en los manuales ELE. Universidad de Barcelona.</li>
+<li>Ferreiro, Emilia (2000), “Leer y escribir en un mundo cambiante”, Conferencia expuesta en las Sesiones Plenarias del 26 Congreso de la Unión Internacional de Editores. CINVESTAV-México. <a href="http://www.cerlalc.org/Escuela/enlaces/leer">http://www.cerlalc.org/Escuela/enlaces/leer</a> escribir mundo cambiante ferreiro.pd</li>
+<li>Olson, David (1998) “La cultura escrita como actividad metalingüística” en en Olson, David y Torrance (Comps.) Cultura escrita y oralidad. Barcelona: Gedisa.</li>
+<li>Pattanayak, Dedi Prasanna (1998) “La cultura escrita: un instrumento de opresión”, en Olson, David y Nancy Torrance (Comps.) Cultura escrita y oralidad. Barcelona: Gedisa.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-introducción-a-la-literatura-11" class="anchor" href="#introducción-a-la-literatura-11" aria-hidden="true"></a>INTRODUCCIÓN A LA LITERATURA</h4>
+<ul>
+<li>Dorra, Raúl (2000) “La actividad narrativa de la descripción” en Hablar de literatura. México: FCE.</li>
+<li>Filinich, María Isabel (1996) “La escritura y la voz en la narración literaria” en Signa. Revista de la Asociación de Semiótica Española n° 5. México: UAP</li>
+</ul>
+<h4><a id="user-content-teoría-literaria" class="anchor" href="#teoría-literaria" aria-hidden="true"></a>TEORÍA LITERARIA</h4>
+<ul>
+<li>Filinich, María Isabel (1999) “Introducción”, “La enunciación narrativa”, “Modos de enunciación de la historia” y “La situación narrativa: percepción y voz” en La voz y la mirada. México: Plaza Valdéz- BUAP.</li>
+<li>Reyes, Graciela (1984) Polifonía textual. La citación en el relato literario. Madrid: Gredos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-contenido-del-diseño-curricular-17" class="anchor" href="#contenido-del-diseño-curricular-17" aria-hidden="true"></a>Contenido del Diseño Curricular</h3>
+<p>Contenidos los años (1°, 2°, 3°, 4° y 5° año)</p>
+<ul>
+<li>La oración, proposición subordinada</li>
+<li>Función en la oración.</li>
+<li>Clases de palabras: Pronombres, sustantivos, adjetivos, verbos</li>
+<li>Conectores</li>
+<li>Leísmo, laísmo y loísmo</li>
+<li>Flexión nominal: género y número</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-materia-cursada-y-bibliografía-21" class="anchor" href="#materia-cursada-y-bibliografía-21" aria-hidden="true"></a>Materia Cursada y Bibliografía</h3>
+<h4><a id="user-content-lengua-i" class="anchor" href="#lengua-i" aria-hidden="true"></a>LENGUA I</h4>
+<ul>
+<li>Benveniste, Emile (1971) Problemas de lingüística general. México: Siglo XXI. (Lectura obligatoria capítulo X)</li>
+<li>Di Tullio, Ángela (1997) en Manual de gramática del español. Buenos Aires: Edicial. (Lectura obligatoria capítulo II).</li>
+<li>Hernández Alonso, César (1996) Gramática funcional del español. Madrid: Gredos. (Lectura obligatoria capítulos II y II).</li>
+<li>Menéndez, Salvio M. (1993) Gramática textual. Buenos Aires: Plus Ultra.</li>
+<li>Cuaderno teórico-práctico elaborado por Ana María Fernández Lávaque y Patricia Salas</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-lengua-ii" class="anchor" href="#lengua-ii" aria-hidden="true"></a>LENGUA II</h4>
+<ul>
+<li>Alarcos Llorach, E. (1994) Gramática de la lengua española. Madrid: Espasa Calpe.</li>
+<li>Alarcos Llorach, E. (1999) Estudios de gramática funcional del español Madrid: Gredos.</li>
+<li>Garcés, M. P. (1997) Las formas verbales en español Valores y usos. Madrid: Verbum.</li>
+<li>Gilí Gaya, S. (2000) Curso superior de sintaxis española. Barcelona: Vox.</li>
+<li>Gómez Torrego, L. (1994) La impersonalidad gramatical descripción y norma. Madrid: Gredos.</li>
+<li>Real Academia Española (1974) Esbozo de una nueva gramática de la lengua española. Madrid: Espasa-Calpe.</li>
+<li>Real Academia Española (1974) Esbozo de una nueva gramática de la lengua española. Madrid: Espasa-Calpe.</li>
+<li>Real Academia Española (2010) Nueva gramática de la lengua española. Manual. Buenos Aires: Espasa.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-psicolinguística-4" class="anchor" href="#psicolinguística-4" aria-hidden="true"></a>PSICOLINGUÍSTICA</h4>
+<ul>
+<li>Blanche Benveniste (1985) “Las regularidades confígurativas en el discurso del francés hablado: consideraciones lingüísticas y sociolingüísticas”. En Vidal Lamiquiz y Rodríguez Izquierdo, Sociolingüística andaluza. Vol. III. “El discurso sociolingüístico”. Sevilla: Servicio de Publicaciones de la Universidad de Sevilla, pp. 19-30.</li>
+<li>Desinano, N. (2008) “Interacciones y teoría interacción! sta” en Interacciones orales sobre textos expositivo-explicativos disciplinares en la escuela media. Rosario: Laborde. (2005) “Fenómenos de estructuración en el texto oral” en Revista de la Escuela de Letras. Universidad Nacional de Rosario. (2011) “Oralidad y fenómenos lingüísticos” Documentos para XVI Congreso Internacional de la ALFAL. Alcalá de Henares. 6 al 9 de junio de 2011.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-lingüística-del-texto-2" class="anchor" href="#lingüística-del-texto-2" aria-hidden="true"></a>LINGÜÍSTICA DEL TEXTO</h4>
+<ul>
+<li>Ciapuscio, Guiomar (1994) Tipos textuales. Buenos Aires: Instituto de Filología, Universidad de Buenos Aires.</li>
+<li>Loureda Lamas, O. (2003) Introducción a la tipología textual. Madrid: Arco/Libros.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-10" class="anchor" href="#enlaces-y-títulos-de-materiales-curriculares-en-los-que-se-trabaja-el-contenido-10" aria-hidden="true"></a>ENLACES Y TÍTULOS DE MATERIALES CURRICULARES EN LOS QUE SE TRABAJA EL CONTENIDO</h3>
+<ul>
+<li>Contiene la integración de la tecnología en el aula para da la materia de Lengua: <a href="http://www.unsam.edu.ar/escuelas/humanidades/centros/celes/docs/6.%20Libro_TIC_oralidad.pdf">http://www.unsam.edu.ar/escuelas/humanidades/centros/celes/docs/6. Libro_TIC_oralidad.pdf</a></li>
+<li>Materiales específicos del área de Lengua: <a href="https://sites.google.com/hum.unsa.edu.ar/didcticadelalenguaylaliteratur/p%C3%A1gina-principal/materiales-curriculares">https://sites.google.com/hum.unsa.edu.ar/didcticadelalenguaylaliteratur/página-principal/materiales-curriculares</a></li>
+<li>Proyecto: “El tesoro de las palabras”. <a href="https://redsocial.rededuca.net/tesoro-palabras">https://redsocial.rededuca.net/tesoro-palabras</a></li>
+<li>Proyecto: El poder de las palabras”. Disponible en: <a href="https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/El+poder+de+las+palabras.+La+gram%C3%A1tica+de+uso+al+servicio+de+la+comunicaci%C3%B3n..pdf/0bfa524d-1f2c-433b-8e66-4153068fa91c">https://colaboraeducacion30.juntadeandalucia.es/educacion/colabora/documents/14250172/14633317/El+poder+de+las+palabras.+La+gramática+de+uso+al+servicio+de+la+comunicación..pdf/0bfa524d-1f2c-433b-8e66-4153068fa91c</a></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Diccionario de la lengua española: Diccionario de la Real Academia Española donde podrás consultar de manera online todos los vocablos que necesites. Desde la misma página puedes acceder también al Diccionario panhispánico de dudas, muy útil para aclarar cuestiones gramaticales y ortográficas.</li>
+<li>WordReference: El famoso diccionario multilingüe incluye más de 200.000 antónimos y sinónimos en español.</li>
+<li>Refranero multilingüe: Desarrollado por el Centro Virtual Cervantes, ofrece una amplia selección de refranes y frases proverbiales con su significado y observaciones léxicas y culturales. También incluye su correspondencia en varias lenguas.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-gramática-y-sintaxis" class="anchor" href="#gramática-y-sintaxis" aria-hidden="true"></a>Gramática y sintaxis</h4>
+<ul>
+<li><a href="http://Gramaticas.net">Gramaticas.net</a>: Toda la gramática de la lengua española explicada de manera sencilla y con numerosos ejemplos. Incluye una sección de juegos y ejercicios donde el caballero Gramático guía a los alumnos por todo tipo actividades interactivas.</li>
+<li>Proyecto Cíceros: Portal de Lengua y Literatura desarrollado por el Ministerio de Educación y destinado a docentes y alumnos Destaca su herramienta para analizar oraciones y su guía de comentario de texto, con nueve textos de distinto tipo para comentar y su solución.</li>
+<li>Analizador morfosintáctico: Aplicación para repasar gramática y analizar todo tipo de oraciones: desde las ya seleccionadas y clasificadas por la propia herramienta, hasta las que el usuario quiera escribir.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-ortografía-y-escritura-mailstemas-redacción-dictados" class="anchor" href="#ortografía-y-escritura-mailstemas-redacción-dictados" aria-hidden="true"></a>Ortografía y escritura (mails/temas redacción, dictados)</h4>
+<ul>
+<li>¿Cómo dice que dijo? Juego online disponible también como app de Android e iOS. Propone frases que hay que completar con la palabra que tiene la ortografía correcta.</li>
+<li>Reglas de ortografía: Portal destinado a la enseñanza y la ejercitación ortográfica.</li>
+<li>Algarabía: Revista online que dedica un amplio espacio a la lengua y todo tipo de curiosidades relacionadas con ella. En su Pinterest recopila numerosas infografías para conocer las reglas ortográficas,  y cuenta con una sección audiovisual llamada Taquitos de lengua.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li>Ka.rac.te.res: Página con multitud de recursos gráficos para repasar ortografía y gramática, y hacer un buen uso del español. También incluye curiosidades e información sobre lenguaje deportivo, gastronómico, neologismos y extranjerismos.</li>
+<li>Storybird: Aplicación online para crear cuentos ilustrados a través de los cientos de dibujos de su base de datos e invitar a tus alumnos a trabajar la creatividad y la expresión escrita.</li>
+<li>Blogger: Herramienta para crear blogs de una manera sencilla y eficaz. Te servirá para crear tu propio blog de aula, o invitar a tus alumnos a que escriban el suyo propio.</li>
+<li>Pixton: Aplicación online para crear cómics y animar a tus alumnos a generar historietas de manera individual o en equipo</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h4><a id="user-content-observaciones-comentarios-7" class="anchor" href="#observaciones-comentarios-7" aria-hidden="true"></a>Observaciones/ Comentarios</h4>
+<ul>
+<li>En Lengua I y II se trabaja con un análisis en caja de las oraciones hasta niveles profundo. En el secundario no se analiza de la misma manera. Sin embargo, creo que es una herramienta de análisis importante de saber, puesto que como docentes podemos tener la capacidad de resolver una oración. No obstante, sería adecuando que también se nos mostrara ómo analizan los estudiantes.</li>
+<li>Otro aspecto que resalto de estas dos materias es que nos dan la RAE para aprender las reglas y  convenciones que rigen el sistema de escritura establecido para una lengua estándar. Pero muchas veces no se explica cómo funciona.</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a id="user-content-tic-tap-o-tep-con-los-que-se-podría-abordar-los-distintos-ejes-del-cdcs" class="anchor" href="#tic-tap-o-tep-con-los-que-se-podría-abordar-los-distintos-ejes-del-cdcs" aria-hidden="true"></a>TIC, TAP o TEP con los que se podría abordar los distintos ejes del CDCS</h2>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-tic" class="anchor" href="#tic" aria-hidden="true"></a>TIC</h3>
+<ul>
+<li><strong>Google DRIVE</strong>: Esta herramienta la podemos emplear para el trabajo cooperativo, compartiremos los documentos sobre los que podremos trabajar todos los miembros del equipo. También nos servirá para tener una visión diaria del trabajo que el alumnado está llevando a cabo y valorar el nivel de implicación de cada uno de los componentes del grupo.</li>
+<li><strong>SYMBALOO</strong>: Nos servirá para crear los entornos informacionales que nos serán útiles para agrupar las herramientas y tutoriales que pueden utilizar nuestro alumnado en la elaboración de su narración o cómic.</li>
+<li><strong>PINTAREST</strong>: Puede ser interesante emplear Pinterest para guardar y compartir las distintas narraciones o cómic que elaboren los alumnos. Sería una magnífica forma de darle visibilidad a través de la red que estaría al alcance de todos los miembros de la comunidad educativa.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li><strong>SOUNDCLOUD</strong>: Ideal para grabar los audios para nuestras historias y poder atender a la diversidad de modo que una persona con problemas visuales podría acceder al contenido a través de los podcasts. Estos pueden aparecer en la portada de nuestra narración como enlaces o con códigos QR.</li>
+<li><strong>INKLESTUDIO</strong>: Herramienta para escribir historias que pueden tener varias opciones de lectura. Se redactan por párrafos y al término de cada uno se puede dar opciones para que la historia continúe por un camino u otro. El lector será el que decida como continuará su historia.</li>
+<li><strong>STORYBIRD</strong>: Presenta una gran variedad de imágenes que podemos utilizar en la creación de cuentos o historias para compartir en la red. Ofrece la posibilidad de construir las historias de forma colaborativa. STORYBOARD o PIXTON: Si queremos utilizar la variante del cómic, esta es una buena herramienta. Puede ser útil para atender a la diversidad.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li><strong>PLAYCOMIC</strong>: Esta herramienta puede ser muy útil para comenzar a desarrollar la creatividad ya que, además de crear, cuenta con actividades para continuar un cómic y convertir los que ya hay en historias</li>
+<li><strong>KAHOOT, QUIZIZZ O PLICKERS</strong>: Se trata de una herramienta para crear cuestionarios online para realizar en el aula ver los conocimientos que nuestro alumnado tiene o ha adquirido.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a id="user-content-tac" class="anchor" href="#tac" aria-hidden="true"></a>TAC</h3>
+<ul>
+<li><strong>PIZZARRA DIGITAL</strong>: nos permite poder enseñar un tema a los estudiantes desde zoom, Classroom, etc.</li>
+<li><strong>Edición vídeo: Quik, Splice, Stupeflix y 123 apps</strong>: Con estas herramientas los alumnos y docentes podrán crear y editar vídeos de una manera sencilla.</li>
+<li><strong>Vídeos interactivos: Vizia y EDpuzzle</strong>: Estos recursos nos permiten convertir cualquier vídeo en una lección interactiva que captará la atención y interés del alumnado.</li>
+<li><strong>Audio: SoundCloud, Audacity, Peggo y Vocaroo</strong>: son aplicaciones para crear
+archivos audio y poder compartirlos.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li><strong>Imagen – infografías: Genially, Typorama, Fotojet y Piktochart</strong>: El lenguaje visual es muy importante, estas herramientas permiten crear infografías de cualquier tipo para presentar la información Gestión del aula: iDoceo y Additio: Aplicaciones para gestionar el día a día de un docente: listas, evaluación, rúbricas, banco de recursos, organización de grupos, etc.</li>
+<li><strong>Gamificación</strong>: Cerebriti Edu, Quizizz, Trivinet, Jeopardy Rocks, Playbuzz,
+Triventy y Arcademic: Recursos para gamificar el aula y dar vida a los
+contenidos curriculares.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li><strong>Evaluación</strong>: Apester, Kahoot!, Google Forms y Quiz Revolution: Son herramientas que nos permiten comprobar los aprendizajes adquiridos por nuestros alumnos de una manera diferente.</li>
+<li><strong>Comunicación: Homeroom, Otter y Blogger</strong>: Son recursos para establecer una comunicación fluida entre todos los miembros de la comunidad educativa.</li>
+<li><strong>Presentanciones Emaze, Genially, Powtoon, Sparkol y Haiku Deck</strong>. Son herramientas para hacer presentaciones de una manera sencilla y con unos resultados atractivos y profesionales.</li>
+<li><strong>Generadores de actividades: Educaplay y Kubbu</strong>: Son aplicaciones para crear nuestras propias actividades interactivas de manera personalizada.</li>
+<li><strong>Trabajo colaborativo: Padlet, Team Maker, Teamweek, Meetingwords y Quip</strong>. Son recursos que nos facilitan el trabajo colaborativo.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <ul>
+<li><strong>Buscadores y navegación segura: YouTube Kids y Kiddle</strong>. Son recursos para que los alumnos puedan buscar vídeos e información con total seguridad.</li>
+<li><strong>Derechos de autor: Pixabay, Iconicons, Skitterphoto, Sample Focus y pngimg</strong>: Son herramientas para buscar imágenes, archivos audio, iconos, etc. sin derechos de autor para utilizar en nuestros proyectos.</li>
+<li><strong>Mapas mentales: Coggle y WiseMapping</strong>. Son aplicaciones para crear mapas mentales digitales.</li>
+<li><strong>Producciones: Pixton, Tiki toki y Storybird</strong>. Son herramientas para que nuestros alumnos creen cómics, líneas del tiempo o cuentos.</li>
+<li><strong>Otras utilidades: Small pdf, Refme, Videociborg y Jumpshare</strong>. Son aplicaciones que facilitan la tarea diaria de cualquier docente.</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <script src="libs/reveal.js/3.8.0/lib/js/head.min.js"></script>
+  <script src="libs/reveal.js/3.8.0/js/reveal.js"></script>
+
+  <script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+
+        controls: true,
+        controlsTutorial: true,
+        controlsLayout: 'bottom-right',
+        controlsBackArrows: 'faded',
+        progress: true,
+        slideNumber: true,
+        history: true,
+        keyboard: true,
+        overview: true,
+        center: true,
+        touch: true,
+        loop: false,
+        rtl: false,
+        shuffle: false,
+        fragments: true,
+        fragmentInURL: false,
+        embedded: false,
+        help: true,
+        showNotes: false,
+        autoPlayMedia: false,
+        autoSlide: 0,
+        autoSlideStoppable: true,
+        autoSlideMethod: Reveal.navigateNext,
+        defaultTiming: 120,
+        mouseWheel: false,
+        hideAddressBar: true,
+        previewLinks: false,
+        transition: 'slide',
+        transitionSpeed: 'default',
+        backgroundTransition: 'default',
+        viewDistance: 6,
+        parallaxBackgroundImage: './images/bibo.webp',
+        parallaxBackgroundSize: '',
+        parallaxBackgroundHorizontal: 200,
+        parallaxBackgroundVertical: 200,
+        display: 'block',
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            // { src: 'libs/reveal.js/3.8.0/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+            { src: 'libs/reveal.js/3.8.0/plugin/notes/notes.js', async: true },
+            { src: 'libs/reveal.js/3.8.0/plugin/chart/Chart.min.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/chart/csv2chart.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/embed-tweet/embed-tweet.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/math/math.js', async: true },
+            { src: 'libs/highlight.js/9.12.0/highlight.js', async: true },
+            { src: 'libs/reveal.js/3.8.0/plugin/anything/anything.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/mermaid/mermaid.min.js', async: true, callback: function() {mermaid.initialize({startOnLoad:false})} },	
+
+           
+        { src: 'libs/reveal.js/3.8.0/plugin/search/search.js', async: true },
+           
+
+           
+        { src: 'libs/reveal.js/3.8.0/plugin/zoom-js/zoom.js', async: true },
+            
+
+            
+
+            
+        { src: 'libs/reveal.js/3.8.0/plugin/menu/menu.js' },
+            
+
+            
+
+        {
+            src: 'libs/highlight.js/9.12.0/reveal-code-focus-1.0.0-mod.js',
+            async: true,
+            callback: function () {
+                RevealCodeFocus();
+            }
+        },
+            // { src: 'libs/reveal.js/3.8.0/plugin/reveal-code-focus/highlight.pack.js' },
+            // { src: 'libs/reveal.js/3.8.0/plugin/reveal-code-focus/reveal-code-focus.js', async: true, callback: function() { RevealCodeFocus(); } },
+           // {src: 'libs/reveal.js/3.8.0/plugin/line-numbers/line-numbers.js'}
+        ]
+        ,
+    keyboard: {
+        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+    },
+    math: {
+       // mathjax: 'libs/reveal.js/3.8.0/plugin/math/MathJax.js',
+             mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+            config: 'TeX-AMS_HTML-full'
+    },
+    chart: {
+        defaults: {
+            global: {
+                title: { fontColor: "#FFF" },
+                legend: {
+                    position: "bottom",
+                        labels: { fontColor: "#FFF" },
+                },
+                tooltips: {
+                    labels: { fontColor: "#FFF" },
+                },
+            },
+            scale: {
+                scaleLabel: { fontColor: "#FFF" },
+                gridLines: { color: "#FFF", zeroLineColor: "#FFF" },
+                ticks: { fontColor: "#FFF" },
+            }
+        },
+        line: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"], "borderDash": [[5, 10], [0, 0]] },
+        bar: { backgroundColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+        pie: { backgroundColor: [["rgba(0,0,0,.8)", "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"]] },
+        radar: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+    },
+    anything: [ 
+	 {
+	  className: "mermaid"
+	 },
+	 // ...
+	],
+    menu: {
+        // Specifies which side of the presentation the menu will 
+        // be shown. Use 'left' or 'right'.
+        side: 'left',
+
+            // Specifies the width of the menu.
+            // Can be one of the following:
+            // 'normal', 'wide', 'third', 'half', 'full', or
+            // any valid css length value
+            width: 'normal',
+
+                // Add slide numbers to the titles in the slide list.
+                // Use 'true' or format string (same as reveal.js slide numbers)
+                numbers: false,
+
+                    // Specifies which slide elements will be used for generating
+                    // the slide titles in the menu. The default selects the first
+                    // heading element found in the slide, but you can specify any
+                    // valid css selector and the text from the first matching
+                    // element will be used.
+                    // Note: that a section data-menu-title attribute or an element
+                    // with a menu-title class will take precedence over this option
+                    titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+                        // If slides do not have a matching title, attempt to use the
+                        // start of the text content as the title instead
+                        useTextContentForMissingTitles: false,
+
+                            // Hide slides from the menu that do not have a title.
+                            // Set to 'true' to only list slides with titles.
+                            hideMissingTitles: false,
+
+                                // Adds markers to the slide titles to indicate the 
+                                // progress through the presentation. Set to 'false'
+                                // to hide the markers.
+                                markers: true,
+
+                                    // Specify custom panels to be included in the menu, by
+                                    // providing an array of objects with 'title', 'icon'
+                                    // properties, and either a 'src' or 'content' property.
+                                    // custom: false,
+                                    custom: [],
+                                        // Specifies the themes that will be available in the themes
+                                        // menu panel. Set to 'true' to show the themes menu panel
+                                        // with the default themes list. Alternatively, provide an
+                                        // array to specify the themes to make available in the
+                                        // themes menu panel, for example...
+                                        // [
+                                        //     { name: 'Black', theme: 'css/theme/black.css' },
+                                        //     { name: 'White', theme: 'css/theme/white.css' },
+                                        //     { name: 'League', theme: 'css/theme/league.css' }
+                                        // ]
+                                        themes: false,
+
+                                            // Specifies the path to the default theme files. If your
+                                            // presentation uses a different path to the standard reveal
+                                            // layout then you need to provide this option, but only
+                                            // when 'themes' is set to 'true'. If you provide your own 
+                                            // list of themes or 'themes' is set to 'false' the 
+                                            // 'themesPath' option is ignored.
+                                            themesPath: 'css/theme/',
+
+                                                // Specifies if the transitions menu panel will be shown.
+                                                // Set to 'true' to show the transitions menu panel with
+                                                // the default transitions list. Alternatively, provide an
+                                                // array to specify the transitions to make available in
+                                                // the transitions panel, for example...
+                                                // ['None', 'Fade', 'Slide']
+                                                transitions: false,
+
+                                                    // Adds a menu button to the slides to open the menu panel.
+                                                    // Set to 'false' to hide the button.
+                                                    openButton: true,
+
+                                                        // If 'true' allows the slide number in the presentation to
+                                                        // open the menu panel. The reveal.js slideNumber option must 
+                                                        // be displayed for this to take effect
+                                                        openSlideNumber: false,
+
+                                                            // If true allows the user to open and navigate the menu using
+                                                            // the keyboard. Standard keyboard interaction with reveal
+                                                            // will be disabled while the menu is open.
+                                                            keyboard: true,
+
+                                                                // Normally the menu will close on user actions such as
+                                                                // selecting a menu item, or clicking the presentation area.
+                                                                // If 'true', the sticky option will leave the menu open
+                                                                // until it is explicitly closed, that is, using the close
+                                                                // button or pressing the ESC or m key (when the keyboard 
+                                                                // interaction option is enabled).
+                                                                sticky: false,
+
+                                                                    // If 'true' standard menu items will be automatically opened
+                                                                    // when navigating using the keyboard. Note: this only takes 
+                                                                    // effect when both the 'keyboard' and 'sticky' options are enabled.
+                                                                    autoOpen: true,
+
+                                                                        // If 'true' the menu will not be created until it is explicitly
+                                                                        // requested by calling RevealMenu.init(). Note this will delay
+                                                                        // the creation of all menu panels, including custom panels, and
+                                                                        // the menu button.
+                                                                        delayInit: false,
+
+                                                                            // If 'true' the menu will be shown when the menu is initialised.
+                                                                            openOnInit: false,
+
+                                                                                // By default the menu will load it's own font-awesome library
+                                                                                // icons. If your presentation needs to load a different
+                                                                                // font-awesome library the 'loadIcons' option can be set to false
+                                                                                // and the menu will not attempt to load the font-awesome library.
+                                                                                loadIcons: false
+    },
+    chalkboard: {
+        toggleChalkboardButton: { left: "60px", bottom: "30px", top: "auto", right: "auto" },
+        toggleNotesButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" },
+
+    }
+    });
+
+
+
+</script>
+</body>
+
+</html>
