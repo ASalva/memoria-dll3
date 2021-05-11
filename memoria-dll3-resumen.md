@@ -168,6 +168,8 @@ parallaxBackgroundVertical: 200
 
 ## EJE: EN RELACIÓN CON LA COMPRENSIÓN Y PRODUCCIÓN ORAL
 
+--
+
 - Capacidades y herramientas de los estudiantes
 - Expresión y narración oral
 - Escucha y toma de turno
