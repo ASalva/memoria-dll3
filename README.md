@@ -1,0 +1,8 @@
+# DIDÁCTICA DE LA LENGUA Y LA LITERATURA – MÓDULO III, MEMORIA DE CONTENIDOS
+
+* Presentación: https://asalva.github.io/memoria-dll3/export
+* PDF: https://asalva.github.io/memoria-dll3/export/?print-pdf
+
+Created with reveal.js and vscode-reveal: https://github.com/evilz/vscode-reveal
+
+Credits: Background image: https://images.unsplash.com/photo-1507842217343-583bb7270b66
