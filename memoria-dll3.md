@@ -26,7 +26,7 @@ Universidad Nacional de Salta Facultad de Humanidades
 <br>
 <br>
 
-**Anahí M. Salva**
+**<p class="center">Anahí M. Salva</p>**
 
 ---
 
