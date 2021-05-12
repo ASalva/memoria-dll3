@@ -24,6 +24,9 @@ p,
 .reveal li {
     text-align: justify;
 }
+p.center {
+    text-align: center;
+}
 .reveal ul {
     margin-bottom: 1.5em;
 }
