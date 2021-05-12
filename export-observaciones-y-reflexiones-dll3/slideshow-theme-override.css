@@ -1,0 +1,32 @@
+.reveal .backgrounds {
+    opacity: 0.1
+}
+.reveal {
+    font-size: 28px;
+}
+.reveal a {
+    word-break: break-all;
+    font-size: 24px;
+}
+.reveal h1 {
+    font-size: 4em;
+}
+.reveal h2 {
+font-size: 3.5em;
+}
+.reveal h3 {
+    font-size: 1.8em;
+}
+.reveal h4 {
+    font-size: 1.4em;
+}
+p,
+.reveal li {
+    text-align: justify;
+}
+p.center {
+    text-align: center;
+}
+.reveal ul {
+    margin-bottom: 1.5em;
+}
